@@ -1,0 +1,218 @@
+body {
+  background-color: #f4f7f9;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* 상단 로고 + 타이틀 */
+.title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.side-logo {
+  width: auto;
+  height: 40px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #70C1B3;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align: center;
+}
+
+/* 메인 레이아웃 (2열 고정) */
+.stream-and-image {
+  display: grid;
+  grid-template-columns: 640px 640px;
+  justify-content: center;
+  gap: 48px;
+}
+
+/* 왼쪽(카메라) + 오른쪽(매핑) 공통 프레임 */
+.frame-wrapper {
+  width: 640px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 섹션 제목 */
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+
+/* Live Camera */
+.video-stream .live-video {
+  width: 640px;
+  height: 480px;
+  object-fit: cover;
+  border-radius: 12px;
+  background-color: #000;
+}
+
+/* Mapping Table 이미지 영역 */
+.image-container {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;      /* 기본 중앙 정렬 (log-panel이 재정의) */
+  justify-content: center;  /* 기본 중앙 정렬 (log-panel이 재정의) */
+  color: #666;
+}
+
+/* YOLO bbox */
+.bbox {
+  position: absolute;
+  border: 2px solid #70C1B3;
+  border-radius: 4px;
+  color: white;
+  background-color: rgba(112, 193, 179, 0.6);
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 2;
+}
+.bbox:hover {
+  background-color: rgba(112, 193, 179, 0.9);
+}
+
+/* ====== 번호 입력 모달 (크기↓, 입력칸↑) ====== */
+.inline-modal {
+  width: 180px;              /* 200px -> 180px */
+  height: 128px;             /* 150px -> 120px */
+  padding: 6px 8px;          /* 8px -> 6px 8px */
+  background-color: white;
+  border: 2px solid #70C1B3;
+  border-radius: 10px;       /* 8px -> 10px */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* 요소 간 간격 촘촘하게 */
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  z-index: 3;
+  font-size: 12px;
+  text-align: center;
+}
+/* 안내 문구: 살짝 작게 + 줄 간격 정리 */
+.inline-modal p {
+  margin: 0 0 6px 0;
+  font-size: 13px;      /* 14px → 13px */
+  font-weight: 600;
+  line-height: 1.35;
+  color: #333;
+  text-align: center;
+}
+
+/* 입력칸: 글씨 살짝 작게 */
+.inline-modal input {
+  width: 150px;
+  height: 34px;         /* 36px → 34px (선택) */
+  padding: 6px 10px;
+  font-size: 13px;      /* 14px → 13px */
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.inline-modal button {
+  background-color: #70C1B3;
+  color: white;
+  border: none;
+  padding: 6px 12px;         /* 6px 10px -> 6px 12px */
+  font-size: 13px;           /* 12px -> 13px */
+  border-radius: 6px;        /* 4px -> 6px */
+  cursor: pointer;
+}
+.inline-modal button:hover {
+  background-color: #58a9a0;
+}
+
+/* 매핑 완료 / 다시 보기 버튼 공통 */
+.mapping-done-btn {
+  padding: 6px 10px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: background 0.2s, opacity 0.2s;
+}
+.mapping-done-btn:hover {
+  background: #f5f5f5;
+}
+/* 비활성화 상태 */
+.mapping-done-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: #eee;
+}
+
+/* -------------------- 로그 패널 -------------------- */
+.log-panel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;     /* 위쪽 */
+  justify-content: flex-start; /* 왼쪽 */
+  padding: 6px 8px;            /* 더 붙임 */
+  text-align: left;
+  color: #444;
+}
+.log-scroll {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+.log-list {
+  width: 100%;
+  max-width: 600px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.log-line {
+  margin-bottom: 6px;
+}
+.log-empty {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+/* 스크롤바 스타일 */
+.log-scroll::-webkit-scrollbar { width: 8px; }
+.log-scroll::-webkit-scrollbar-thumb { background: #cfcfcf; border-radius: 6px; }
+.log-scroll::-webkit-scrollbar-track { background: transparent; }
