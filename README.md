@@ -20,6 +20,17 @@
 8. 최종적으로 원점 복귀(Go Home)
 
 # 👀 Main feature
+## 파일 구성도
+HW/
+
+
+SW/
+├── App
+├── ESP32 & Arduino Nano
+├── Jetson
+├── Web
+└── Server
+
 
 # ⚙️ Environment
 
