@@ -20,16 +20,77 @@
 8. 최종적으로 원점 복귀(Go Home)
 
 # 👀 Main feature
-## 파일 구성도
-HW/
+## 📂 Project Structure
+
+📂 HW  
+└─ 📜 (추후 작성 예정)  
 
 
-SW/
-├── App
-├── ESP32 & Arduino Nano
-├── Jetson
-├── Web
-└── Server
+📂 SW  
+
+├─ 📂 App  
+│  └─ 📜 (추후 작성 예정)  
+
+
+├─ 📂 ESP32 & Arduino Nano  
+│  ├─ 📜 Ultrasonic.ino  
+│  ├─ 📜 StepDC.ino  
+│  ├─ 📜 Battery.ino  
+│  └─ 📜 MD_Arduino.ino  
+
+
+├─ 📂 Jetson  
+│  ├─ 📂 Sensor_pkg  
+│  │  ├─ 📂 src  
+│  │  │  ├─ 📜 uwb_to_ros.cpp  
+│  │  │  ├─ 📜 imu_node.cpp  
+│  │  │  ├─ 📜 odom_publisher.cpp  
+│  │  │  ├─ 📜 uwb_offset_node.cpp  
+│  │  │  └─ 📜 ultrasonic_parser_node.cpp  
+│  │  ├─ 📂 launch  
+│  │  │  └─ 📜 sensor_launch.py  
+│  │  ├─ 📜 CMakeLists.txt  
+│  │  └─ 📜 package.xml  
+│  ├─ 📂 Drive_pkg  
+│  │  ├─ 📂 src  
+│  │  │  ├─ 📜 goal_server_node.cpp  
+│  │  │  ├─ 📜 go_home_node.cpp  
+│  │  │  ├─ 📜 planner_node.cpp  
+│  │  │  └─ 📜 controller_node.cpp  
+│  │  ├─ 📂 launch  
+│  │  │  └─ 📜 drive_launch.py  
+│  │  ├─ 📜 CMakeLists.txt  
+│  │  └─ 📜 package.xml  
+│  ├─ 📂 Table_pkg  
+│  │  ├─ 📂 table_pkg  
+│  │  │  ├─ 📜 dirt_check_node.py  
+│  │  │  ├─ 📜 camera_stream_node.py  
+│  │  │  ├─ 📜 table_align_node.py  
+│  │  │  └─ 📜 table_manager_node.py  
+│  │  ├─ 📂 launch  
+│  │  │  └─ 📜 table_cleaning_sys.py  
+│  │  ├─ 📜 setup.py  
+│  │  └─ 📜 package.xml  
+│  ├─ 📂 esw_pkg  
+│  │  └─ 📂 launch  
+│  │     └─ 📜 esw_launch.py  
+│  ├─ 📂 navigate_server  
+│  │  └─ 📂 navigate_server  
+│  │     └─ 📜 jetson_server_node.py  
+│  └─ 📂 roarm_ws_em0  
+
+
+├─ 📂 Web  
+│  └─ 📜 (추후 작성 예정)  
+
+
+└─ 📂 Server  
+   └─ 📜 (추후 작성 예정)  
+ 
+
+
+
+
 
 
 # ⚙️ Environment
