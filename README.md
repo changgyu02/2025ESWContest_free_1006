@@ -20,11 +20,16 @@
 8. 최종적으로 원점 복귀(Go Home)
 
 # 👀 Main feature
+## 🤖 HW 
+<img width="1920" height="1080" alt="HW 전체 회로도" src="https://github.com/user-attachments/assets/db4a19a5-f613-41c9-abbe-badc49d77e99" />
+<img width="1920" height="1080" alt="HW 설명" src="https://github.com/user-attachments/assets/ab29166f-c6f0-446f-8331-ac6dc4116fe6" />
 
 
-
-
-
+## 🖥️ SW(주요 함수, 노드 별 기능)
+<img width="1920" height="1080" alt="Web   Server" src="https://github.com/user-attachments/assets/76d06ce5-f840-4796-999f-467b071f1301" />
+<img width="1920" height="1080" alt="Sensor   Drive Pkg" src="https://github.com/user-attachments/assets/04b641fb-a7a7-4cfb-8356-cfd3da7f3ced" />
+<img width="1920" height="1080" alt="Table   Cleaning Pkg" src="https://github.com/user-attachments/assets/baca1ff0-9ef1-4423-8caf-4a571636316c" />
+<img width="1920" height="1080" alt="App" src="https://github.com/user-attachments/assets/ba6fd52c-5a90-4dc5-ba2e-6134811df34c" />
 
 # ⚙️ Environment
 
