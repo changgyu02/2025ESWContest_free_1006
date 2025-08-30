@@ -89,6 +89,8 @@
       <img src="https://img.shields.io/badge/Jetson%20%E2%86%94%20Server-4CAF50?style=for-the-badge"/>
       <img src="https://img.shields.io/badge/App%20%2F%20Web%20%E2%86%94%20Server-2196F3?style=for-the-badge"/>
       <img src="https://img.shields.io/badge/REST%20API-FF6F00?style=for-the-badge&logo=swagger&logoColor=white"/>
+      <img src="https://img.shields.io/badge/WebSocket-2196F3?style=for-the-badge&logo=websocket&logoColor=white"/>
+  </td>
     </td>
   </tr>
   <tr>
