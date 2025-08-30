@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sensor_pkg</name>
+  <version>0.0.1</version>
+  <description>Integrated sensor package for UWB, IMU, odom, and EKF</description>
+
+  <maintainer email="atyy021127@konkuk.ac.kr">Changgyu Lee</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>OpenCV</depend>
+  <depend>std_srvs</depend>
+  <depend>eigen</depend>
+  <depend>ament_index_cpp</depend>
+
+  <depend>regex</depend>
+  <depend>unistd</depend>
+  <depend>termios</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+

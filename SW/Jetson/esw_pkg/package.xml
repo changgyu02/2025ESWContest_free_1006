@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>esw_pkg</name>
+  <version>0.0.1</version>
+  <description>Integrated launch package for drive, sensor, table cleaning, roarm, and navigate server</description>
+
+  <maintainer email="atyy021127@konkuk.ac.kr">Changgyu Lee</maintainer>
+  <license>Apache License 2.0</license>
+
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>drive_pkg</exec_depend>
+  <exec_depend>sensor_pkg</exec_depend>
+  <exec_depend>table_pkg</exec_depend>
+  <exec_depend>roarm_driver</exec_depend>
+  <exec_depend>navigate_server</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

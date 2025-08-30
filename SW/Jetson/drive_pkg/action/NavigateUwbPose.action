@@ -1,0 +1,11 @@
+# Goal
+float64 x
+float64 y
+float64 yaw_deg
+---
+# Result
+bool success
+string message
+---
+# Feedback
+float64 distance_remaining

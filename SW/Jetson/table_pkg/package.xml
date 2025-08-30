@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>table_pkg</name>
+  <version>0.0.0</version>
+  <description>Python-based ROS2 package for table management and dirt classification</description>
+  <maintainer email="atyy021127@konkuk.ac.kr">Changgyu Lee</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>cv_bridge</depend>
+  <depend>ament_index_python</depend>
+
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>torch</exec_depend>
+  <exec_depend>ultralytics</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
