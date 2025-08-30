@@ -19,7 +19,8 @@
 7. 오염도 결과가 더러움이면 추가 클리닝 1회 수행
 8. 최종적으로 원점 복귀(Go Home)
 
-# 👀 Main feature
+
+# 👀 Main feature(HW & SW)
 ## 🤖 HW 
 <img width="1920" height="1080" alt="HW 전체 회로도" src="https://github.com/user-attachments/assets/db4a19a5-f613-41c9-abbe-badc49d77e99" />
 <img width="1920" height="1080" alt="HW 설명" src="https://github.com/user-attachments/assets/ab29166f-c6f0-446f-8331-ac6dc4116fe6" />
