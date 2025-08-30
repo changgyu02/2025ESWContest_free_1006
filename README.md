@@ -23,7 +23,8 @@
 # 🚀 Main feature(HW & SW)
 ## 🤖 HW 
 <img width="1920" height="1080" alt="HW 전체 회로도" src="https://github.com/user-attachments/assets/db4a19a5-f613-41c9-abbe-badc49d77e99" />
-<img width="1920" height="1080" alt="HW 설명" src="https://github.com/user-attachments/assets/ab29166f-c6f0-446f-8331-ac6dc4116fe6" />
+<img width="1920" height="1080" alt="HW 설명" src="https://github.com/user-attachments/assets/dcb7b1cf-a791-41f4-b257-5167fe409e89" />
+
 
 
 ## 🖥️ SW(주요 함수, 노드 별 기능)
