@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "roarm_moveit__py",
+		"source" : "/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py"
+	}
+}

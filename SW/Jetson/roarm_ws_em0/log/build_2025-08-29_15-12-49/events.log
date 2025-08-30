@@ -1,0 +1,336 @@
+[0.000000] (-) TimerEvent: {}
+[0.000700] (-) JobUnselected: {'identifier': 'launch_api'}
+[0.001183] (-) JobUnselected: {'identifier': 'moveit_servo'}
+[0.001461] (-) JobUnselected: {'identifier': 'roarm_description'}
+[0.001757] (-) JobUnselected: {'identifier': 'roarm_driver'}
+[0.001848] (-) JobUnselected: {'identifier': 'roarm_moveit'}
+[0.001911] (-) JobUnselected: {'identifier': 'roarm_moveit_ikfast_plugins'}
+[0.001969] (-) JobUnselected: {'identifier': 'roarm_web_app'}
+[0.002026] (-) JobUnselected: {'identifier': 'ros2web'}
+[0.002081] (-) JobUnselected: {'identifier': 'ros2web_app'}
+[0.002135] (-) JobUnselected: {'identifier': 'ros2web_example_py'}
+[0.002191] (-) JobUnselected: {'identifier': 'ros2web_interfaces'}
+[0.002245] (-) JobUnselected: {'identifier': 'ros2web_widgets'}
+[0.002305] (roarm_moveit_cmd) JobQueued: {'identifier': 'roarm_moveit_cmd', 'dependencies': OrderedDict([('moveit_servo', '/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo'), ('roarm_description', '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description'), ('roarm_moveit', '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit')])}
+[0.002384] (roarm_moveit_cmd) JobStarted: {'identifier': 'roarm_moveit_cmd'}
+[0.038186] (roarm_moveit_cmd) JobProgress: {'identifier': 'roarm_moveit_cmd', 'progress': 'cmake'}
+[0.040683] (roarm_moveit_cmd) JobProgress: {'identifier': 'roarm_moveit_cmd', 'progress': 'build'}
+[0.042309] (roarm_moveit_cmd) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd', '--', '-j6', '-l6'], 'cwd': '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'changgyu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64'), ('HOME', '/home/changgyu'), ('OLDPWD', '/home/changgyu/roarm_ws/roarm_ws_em0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2564'), ('SYSTEMD_EXEC_PID', '2758'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'changgyu'), ('JOURNAL_STREAM', '8:45634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'changgyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/changgyu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2721,unix/ubuntu:/tmp/.ICE-unix/2721'), ('INVOCATION_ID', '7713f28593424902bfe5f28effcd3f2d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f453b983-51fd-4899-bd2a-244b8390c8de'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/changgyu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api:/opt/ros/humble')]), 'shell': False}
+[0.099355] (-) TimerEvent: {}
+[0.200167] (-) TimerEvent: {}
+[0.220696] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 14%] Built target keyboardcontrol\n'}
+[0.229148] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 28%] Built target webappcontrol\n'}
+[0.240849] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 50%] Built target getposecmd_tf2\n'}
+[0.241310] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/movepointcmd.dir/src/movepointcmd.cpp.o\x1b[0m\n'}
+[0.246115] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 64%] Built target movecirclecmd\n'}
+[0.285184] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 78%] Built target getposecmd\n'}
+[0.300326] (-) TimerEvent: {}
+[0.304139] (roarm_moveit_cmd) StdoutLine: {'line': b'[ 92%] Built target setgrippercmd\n'}
+[0.400506] (-) TimerEvent: {}
+[0.501197] (-) TimerEvent: {}
+[0.601918] (-) TimerEvent: {}
+[0.702673] (-) TimerEvent: {}
+[0.803427] (-) TimerEvent: {}
+[0.904205] (-) TimerEvent: {}
+[1.005115] (-) TimerEvent: {}
+[1.105795] (-) TimerEvent: {}
+[1.206514] (-) TimerEvent: {}
+[1.307391] (-) TimerEvent: {}
+[1.408210] (-) TimerEvent: {}
+[1.509052] (-) TimerEvent: {}
+[1.609871] (-) TimerEvent: {}
+[1.710709] (-) TimerEvent: {}
+[1.811517] (-) TimerEvent: {}
+[1.912280] (-) TimerEvent: {}
+[2.013134] (-) TimerEvent: {}
+[2.113782] (-) TimerEvent: {}
+[2.214445] (-) TimerEvent: {}
+[2.315150] (-) TimerEvent: {}
+[2.415821] (-) TimerEvent: {}
+[2.516506] (-) TimerEvent: {}
+[2.617169] (-) TimerEvent: {}
+[2.717826] (-) TimerEvent: {}
+[2.818484] (-) TimerEvent: {}
+[2.919180] (-) TimerEvent: {}
+[3.020114] (-) TimerEvent: {}
+[3.120727] (-) TimerEvent: {}
+[3.221369] (-) TimerEvent: {}
+[3.322020] (-) TimerEvent: {}
+[3.422686] (-) TimerEvent: {}
+[3.523498] (-) TimerEvent: {}
+[3.624959] (-) TimerEvent: {}
+[3.725669] (-) TimerEvent: {}
+[3.826529] (-) TimerEvent: {}
+[3.927300] (-) TimerEvent: {}
+[4.028668] (-) TimerEvent: {}
+[4.129430] (-) TimerEvent: {}
+[4.230091] (-) TimerEvent: {}
+[4.330849] (-) TimerEvent: {}
+[4.431574] (-) TimerEvent: {}
+[4.532223] (-) TimerEvent: {}
+[4.632892] (-) TimerEvent: {}
+[4.733620] (-) TimerEvent: {}
+[4.834465] (-) TimerEvent: {}
+[4.935274] (-) TimerEvent: {}
+[5.036010] (-) TimerEvent: {}
+[5.136685] (-) TimerEvent: {}
+[5.237312] (-) TimerEvent: {}
+[5.337990] (-) TimerEvent: {}
+[5.438821] (-) TimerEvent: {}
+[5.539663] (-) TimerEvent: {}
+[5.640557] (-) TimerEvent: {}
+[5.741374] (-) TimerEvent: {}
+[5.842200] (-) TimerEvent: {}
+[5.943270] (-) TimerEvent: {}
+[6.044129] (-) TimerEvent: {}
+[6.144975] (-) TimerEvent: {}
+[6.245782] (-) TimerEvent: {}
+[6.346623] (-) TimerEvent: {}
+[6.447455] (-) TimerEvent: {}
+[6.548253] (-) TimerEvent: {}
+[6.648944] (-) TimerEvent: {}
+[6.749620] (-) TimerEvent: {}
+[6.850317] (-) TimerEvent: {}
+[6.951147] (-) TimerEvent: {}
+[7.051980] (-) TimerEvent: {}
+[7.152674] (-) TimerEvent: {}
+[7.253342] (-) TimerEvent: {}
+[7.353994] (-) TimerEvent: {}
+[7.454699] (-) TimerEvent: {}
+[7.555514] (-) TimerEvent: {}
+[7.656337] (-) TimerEvent: {}
+[7.757194] (-) TimerEvent: {}
+[7.857935] (-) TimerEvent: {}
+[7.958699] (-) TimerEvent: {}
+[8.059530] (-) TimerEvent: {}
+[8.160340] (-) TimerEvent: {}
+[8.261187] (-) TimerEvent: {}
+[8.361995] (-) TimerEvent: {}
+[8.462804] (-) TimerEvent: {}
+[8.563624] (-) TimerEvent: {}
+[8.664616] (-) TimerEvent: {}
+[8.765512] (-) TimerEvent: {}
+[8.866195] (-) TimerEvent: {}
+[8.966842] (-) TimerEvent: {}
+[9.067540] (-) TimerEvent: {}
+[9.168282] (-) TimerEvent: {}
+[9.268948] (-) TimerEvent: {}
+[9.369607] (-) TimerEvent: {}
+[9.470245] (-) TimerEvent: {}
+[9.570884] (-) TimerEvent: {}
+[9.671521] (-) TimerEvent: {}
+[9.772189] (-) TimerEvent: {}
+[9.872892] (-) TimerEvent: {}
+[9.973586] (-) TimerEvent: {}
+[10.074232] (-) TimerEvent: {}
+[10.174878] (-) TimerEvent: {}
+[10.275534] (-) TimerEvent: {}
+[10.376193] (-) TimerEvent: {}
+[10.476901] (-) TimerEvent: {}
+[10.577862] (-) TimerEvent: {}
+[10.678558] (-) TimerEvent: {}
+[10.779234] (-) TimerEvent: {}
+[10.880709] (-) TimerEvent: {}
+[10.981420] (-) TimerEvent: {}
+[11.082580] (-) TimerEvent: {}
+[11.148720] (roarm_moveit_cmd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool MovePointCmdNode::go_to_joint(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.149296] (roarm_moveit_cmd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:186:92:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.149446] (roarm_moveit_cmd) StderrLine: {'line': b'  186 |     auto ok_plan = (move_group_.plan(plan) == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[11.149674] (roarm_moveit_cmd) StderrLine: {'line': b'      |                                                                                            \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.149792] (roarm_moveit_cmd) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:13\x1b[m\x1b[K:\n'}
+[11.149903] (roarm_moveit_cmd) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.150010] (roarm_moveit_cmd) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[11.150112] (roarm_moveit_cmd) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.150215] (roarm_moveit_cmd) StderrLine: {'line': b'\x1b[01m\x1b[K/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:191:95:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing MoveItErrorCode = class moveit::core::MoveItErrorCode\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use moveit::core::MoveItErrorCode [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.150323] (roarm_moveit_cmd) StderrLine: {'line': b'  191 |     auto ok_exec = (move_group_.execute(plan) == moveit::planning_interface::MoveItErrorCode::\x1b[01;35m\x1b[KSUCCESS\x1b[m\x1b[K);\n'}
+[11.150422] (roarm_moveit_cmd) StderrLine: {'line': b'      |                                                                                               \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.150518] (roarm_moveit_cmd) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd/src/movepointcmd.cpp:13\x1b[m\x1b[K:\n'}
+[11.150614] (roarm_moveit_cmd) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/moveit/move_group_interface/move_group_interface.h:71:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.150741] (roarm_moveit_cmd) StderrLine: {'line': b'   71 | using \x1b[01;36m\x1b[KMoveItErrorCode\x1b[m\x1b[K [[deprecated("Use moveit::core::MoveItErrorCode")]] = moveit::core::MoveItErrorCode;\n'}
+[11.150841] (roarm_moveit_cmd) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.182741] (-) TimerEvent: {}
+[11.283450] (-) TimerEvent: {}
+[11.384315] (-) TimerEvent: {}
+[11.485067] (-) TimerEvent: {}
+[11.585755] (-) TimerEvent: {}
+[11.686586] (-) TimerEvent: {}
+[11.787401] (-) TimerEvent: {}
+[11.888244] (-) TimerEvent: {}
+[11.989105] (-) TimerEvent: {}
+[12.089952] (-) TimerEvent: {}
+[12.191022] (-) TimerEvent: {}
+[12.291910] (-) TimerEvent: {}
+[12.392745] (-) TimerEvent: {}
+[12.493544] (-) TimerEvent: {}
+[12.594352] (-) TimerEvent: {}
+[12.695400] (-) TimerEvent: {}
+[12.796360] (-) TimerEvent: {}
+[12.897112] (-) TimerEvent: {}
+[12.998444] (-) TimerEvent: {}
+[13.099458] (-) TimerEvent: {}
+[13.200129] (-) TimerEvent: {}
+[13.300725] (-) TimerEvent: {}
+[13.401374] (-) TimerEvent: {}
+[13.502028] (-) TimerEvent: {}
+[13.602736] (-) TimerEvent: {}
+[13.703667] (-) TimerEvent: {}
+[13.804550] (-) TimerEvent: {}
+[13.905432] (-) TimerEvent: {}
+[14.006306] (-) TimerEvent: {}
+[14.107342] (-) TimerEvent: {}
+[14.208522] (-) TimerEvent: {}
+[14.309409] (-) TimerEvent: {}
+[14.410207] (-) TimerEvent: {}
+[14.510976] (-) TimerEvent: {}
+[14.611759] (-) TimerEvent: {}
+[14.712547] (-) TimerEvent: {}
+[14.813249] (-) TimerEvent: {}
+[14.913900] (-) TimerEvent: {}
+[15.014754] (-) TimerEvent: {}
+[15.115556] (-) TimerEvent: {}
+[15.216328] (-) TimerEvent: {}
+[15.317079] (-) TimerEvent: {}
+[15.417975] (-) TimerEvent: {}
+[15.518761] (-) TimerEvent: {}
+[15.619392] (-) TimerEvent: {}
+[15.720046] (-) TimerEvent: {}
+[15.820745] (-) TimerEvent: {}
+[15.921555] (-) TimerEvent: {}
+[16.022366] (-) TimerEvent: {}
+[16.123434] (-) TimerEvent: {}
+[16.224250] (-) TimerEvent: {}
+[16.325103] (-) TimerEvent: {}
+[16.425927] (-) TimerEvent: {}
+[16.526736] (-) TimerEvent: {}
+[16.627547] (-) TimerEvent: {}
+[16.728345] (-) TimerEvent: {}
+[16.829175] (-) TimerEvent: {}
+[16.929992] (-) TimerEvent: {}
+[17.030806] (-) TimerEvent: {}
+[17.131617] (-) TimerEvent: {}
+[17.232433] (-) TimerEvent: {}
+[17.333266] (-) TimerEvent: {}
+[17.434066] (-) TimerEvent: {}
+[17.534835] (-) TimerEvent: {}
+[17.635638] (-) TimerEvent: {}
+[17.736447] (-) TimerEvent: {}
+[17.837270] (-) TimerEvent: {}
+[17.938086] (-) TimerEvent: {}
+[18.038900] (-) TimerEvent: {}
+[18.139730] (-) TimerEvent: {}
+[18.240598] (-) TimerEvent: {}
+[18.341417] (-) TimerEvent: {}
+[18.442221] (-) TimerEvent: {}
+[18.543022] (-) TimerEvent: {}
+[18.643788] (-) TimerEvent: {}
+[18.744471] (-) TimerEvent: {}
+[18.845289] (-) TimerEvent: {}
+[18.946103] (-) TimerEvent: {}
+[19.046913] (-) TimerEvent: {}
+[19.147726] (-) TimerEvent: {}
+[19.248543] (-) TimerEvent: {}
+[19.349387] (-) TimerEvent: {}
+[19.450188] (-) TimerEvent: {}
+[19.550985] (-) TimerEvent: {}
+[19.651774] (-) TimerEvent: {}
+[19.752559] (-) TimerEvent: {}
+[19.853375] (-) TimerEvent: {}
+[19.954136] (-) TimerEvent: {}
+[20.054900] (-) TimerEvent: {}
+[20.155668] (-) TimerEvent: {}
+[20.256398] (-) TimerEvent: {}
+[20.357146] (-) TimerEvent: {}
+[20.457893] (-) TimerEvent: {}
+[20.558634] (-) TimerEvent: {}
+[20.659408] (-) TimerEvent: {}
+[20.760176] (-) TimerEvent: {}
+[20.861003] (-) TimerEvent: {}
+[20.961802] (-) TimerEvent: {}
+[21.062604] (-) TimerEvent: {}
+[21.163397] (-) TimerEvent: {}
+[21.264157] (-) TimerEvent: {}
+[21.364960] (-) TimerEvent: {}
+[21.465762] (-) TimerEvent: {}
+[21.566565] (-) TimerEvent: {}
+[21.667353] (-) TimerEvent: {}
+[21.768163] (-) TimerEvent: {}
+[21.869025] (-) TimerEvent: {}
+[21.969812] (-) TimerEvent: {}
+[22.070479] (-) TimerEvent: {}
+[22.171296] (-) TimerEvent: {}
+[22.272131] (-) TimerEvent: {}
+[22.372959] (-) TimerEvent: {}
+[22.473767] (-) TimerEvent: {}
+[22.574585] (-) TimerEvent: {}
+[22.675395] (-) TimerEvent: {}
+[22.776205] (-) TimerEvent: {}
+[22.877078] (-) TimerEvent: {}
+[22.977863] (-) TimerEvent: {}
+[23.078671] (-) TimerEvent: {}
+[23.179475] (-) TimerEvent: {}
+[23.280259] (-) TimerEvent: {}
+[23.380946] (-) TimerEvent: {}
+[23.481541] (-) TimerEvent: {}
+[23.582163] (-) TimerEvent: {}
+[23.682810] (-) TimerEvent: {}
+[23.783597] (-) TimerEvent: {}
+[23.884313] (-) TimerEvent: {}
+[23.984979] (-) TimerEvent: {}
+[24.085767] (-) TimerEvent: {}
+[24.186554] (-) TimerEvent: {}
+[24.287312] (-) TimerEvent: {}
+[24.388040] (-) TimerEvent: {}
+[24.488839] (-) TimerEvent: {}
+[24.589640] (-) TimerEvent: {}
+[24.690423] (-) TimerEvent: {}
+[24.791219] (-) TimerEvent: {}
+[24.892038] (-) TimerEvent: {}
+[24.992938] (-) TimerEvent: {}
+[25.094011] (-) TimerEvent: {}
+[25.189905] (roarm_moveit_cmd) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable movepointcmd\x1b[0m\n'}
+[25.194096] (-) TimerEvent: {}
+[25.294781] (-) TimerEvent: {}
+[25.395434] (-) TimerEvent: {}
+[25.496083] (-) TimerEvent: {}
+[25.596720] (-) TimerEvent: {}
+[25.697352] (-) TimerEvent: {}
+[25.798004] (-) TimerEvent: {}
+[25.898662] (-) TimerEvent: {}
+[25.956774] (roarm_moveit_cmd) StdoutLine: {'line': b'[100%] Built target movepointcmd\n'}
+[25.973234] (roarm_moveit_cmd) CommandEnded: {'returncode': 0}
+[25.976382] (roarm_moveit_cmd) JobProgress: {'identifier': 'roarm_moveit_cmd', 'progress': 'install'}
+[25.986792] (roarm_moveit_cmd) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd'], 'cwd': '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'changgyu'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64'), ('HOME', '/home/changgyu'), ('OLDPWD', '/home/changgyu/roarm_ws/roarm_ws_em0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2564'), ('SYSTEMD_EXEC_PID', '2758'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7434'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'changgyu'), ('JOURNAL_STREAM', '8:45634'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'changgyu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/changgyu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2721,unix/ubuntu:/tmp/.ICE-unix/2721'), ('INVOCATION_ID', '7713f28593424902bfe5f28effcd3f2d'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f453b983-51fd-4899-bd2a-244b8390c8de'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/changgyu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api:/opt/ros/humble')]), 'shell': False}
+[25.996298] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[25.997298] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd\n'}
+[25.997652] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/getposecmd_tf2\n'}
+[25.997999] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/keyboardcontrol\n'}
+[25.998397] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Installing: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movepointcmd\n'}
+[25.998653] (-) TimerEvent: {}
+[26.000161] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movepointcmd" to ""\n'}
+[26.000512] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/movecirclecmd\n'}
+[26.000991] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/webappcontrol\n'}
+[26.001549] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/roarm_moveit_cmd/setgrippercmd\n'}
+[26.001912] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch\n'}
+[26.002266] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/launch/command_control.launch.py\n'}
+[26.002649] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config\n'}
+[26.003028] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/config/command_control.rviz\n'}
+[26.003387] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/ament_index/resource_index/package_run_dependencies/roarm_moveit_cmd\n'}
+[26.003623] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/ament_index/resource_index/parent_prefix_path/roarm_moveit_cmd\n'}
+[26.004057] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.sh\n'}
+[26.004331] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/ament_prefix_path.dsv\n'}
+[26.004555] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.sh\n'}
+[26.004969] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/environment/path.dsv\n'}
+[26.005198] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.bash\n'}
+[26.005419] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.sh\n'}
+[26.005638] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.zsh\n'}
+[26.005975] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/local_setup.dsv\n'}
+[26.006689] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Installing: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv\n'}
+[26.008662] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/ament_index/resource_index/packages/roarm_moveit_cmd\n'}
+[26.010017] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.010499] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.010926] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig.cmake\n'}
+[26.011417] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/cmake/roarm_moveit_cmdConfig-version.cmake\n'}
+[26.011657] (roarm_moveit_cmd) StdoutLine: {'line': b'-- Up-to-date: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.xml\n'}
+[26.011887] (roarm_moveit_cmd) CommandEnded: {'returncode': 0}
+[26.077595] (roarm_moveit_cmd) JobEnded: {'identifier': 'roarm_moveit_cmd', 'rc': 0}
+[26.080746] (-) EventReactorShutdown: {}

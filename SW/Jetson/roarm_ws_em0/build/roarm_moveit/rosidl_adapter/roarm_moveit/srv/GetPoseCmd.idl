@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_moveit/srv/GetPoseCmd.srv
+// generated code does not contain a copyright notice
+
+
+module roarm_moveit {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct GetPoseCmd_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetPoseCmd_Response {
+      double x;
+
+      double y;
+
+      double z;
+
+      double grip;
+    };
+  };
+};

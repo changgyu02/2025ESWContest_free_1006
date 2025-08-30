@@ -1,0 +1,32 @@
+[0.033s] Invoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/moveit_servo': /usr/local/bin/cmake /home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo
+[0.480s] -- The C compiler identification is GNU 11.4.0
+[0.481s] -- The CXX compiler identification is GNU 11.4.0
+[0.481s] -- Detecting C compiler ABI info
+[0.481s] -- Detecting C compiler ABI info - done
+[0.481s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.481s] -- Detecting C compile features
+[0.481s] -- Detecting C compile features - done
+[0.481s] -- Detecting CXX compiler ABI info
+[0.519s] -- Detecting CXX compiler ABI info - done
+[0.552s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.552s] -- Detecting CXX compile features
+[0.553s] -- Detecting CXX compile features - done
+[0.570s] [31mCMake Error at CMakeLists.txt:30 (find_package):
+[0.570s]   By not providing "Findmoveit_common.cmake" in CMAKE_MODULE_PATH this
+[0.571s]   project has asked CMake to find a package configuration file provided by
+[0.571s]   "moveit_common", but CMake did not find one.
+[0.571s] 
+[0.571s]   Could not find a package configuration file provided by "moveit_common"
+[0.571s]   with any of the following names:
+[0.571s] 
+[0.571s]     moveit_commonConfig.cmake
+[0.572s]     moveit_common-config.cmake
+[0.572s] 
+[0.572s]   Add the installation prefix of "moveit_common" to CMAKE_PREFIX_PATH or set
+[0.572s]   "moveit_common_DIR" to a directory containing one of the above files.  If
+[0.572s]   "moveit_common" provides a separate development package or SDK, be sure it
+[0.572s]   has been installed.
+[0.573s] 
+[0.573s] [0m
+[0.573s] -- Configuring incomplete, errors occurred!
+[0.579s] Invoked command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/moveit_servo' returned '1': /usr/local/bin/cmake /home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo

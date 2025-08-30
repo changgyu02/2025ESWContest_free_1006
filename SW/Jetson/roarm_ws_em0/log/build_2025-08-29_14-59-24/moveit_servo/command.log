@@ -1,0 +1,2 @@
+Invoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/moveit_servo': /usr/local/bin/cmake /home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo
+Invoked command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/moveit_servo' returned '1': /usr/local/bin/cmake /home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/moveit_servo -DCMAKE_INSTALL_PREFIX=/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo

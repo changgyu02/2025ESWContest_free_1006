@@ -1,0 +1,7 @@
+[ros2web.handler]
+app = ros2web_app.handler.app:AppHandler
+web_rtc = ros2web_app.handler.web_rtc:WebRtcHandler
+
+[ros2web.verb]
+create = ros2web_app.verb.create:CreateVerb
+

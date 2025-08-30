@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info
+writing ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/entry_points.txt
+writing requirements to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/requires.txt
+writing top-level names to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/top_level.txt
+writing manifest file '../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/SOURCES.txt'
+reading manifest file '../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets
+copying ros2web_widgets/widgets.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets
+copying ros2web_widgets/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets
+running install
+running install_lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets/widgets.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets/widgets.py to widgets.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ament_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ament_index/resource_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ament_index/resource_index/packages
+copying resource/ros2web_widgets -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ament_index/resource_index/packages
+copying package.xml -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets
+running install_egg_info
+Copying ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info to /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets-0.0.0-py3.10.egg-info
+running install_scripts
+Installing widgets script to /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/ros2web_widgets
+writing list of installed files to '/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/install.log'

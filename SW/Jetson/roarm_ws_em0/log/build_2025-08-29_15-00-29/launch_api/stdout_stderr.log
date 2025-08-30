@@ -1,0 +1,68 @@
+running egg_info
+creating ../../../build/launch_api/launch_api.egg-info
+writing ../../../build/launch_api/launch_api.egg-info/PKG-INFO
+writing dependency_links to ../../../build/launch_api/launch_api.egg-info/dependency_links.txt
+writing entry points to ../../../build/launch_api/launch_api.egg-info/entry_points.txt
+writing requirements to ../../../build/launch_api/launch_api.egg-info/requires.txt
+writing top-level names to ../../../build/launch_api/launch_api.egg-info/top_level.txt
+writing manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+reading manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/launch_api/launch_api.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api
+copying launch_api/process_proxy.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api
+copying launch_api/service.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api
+copying launch_api/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities
+copying launch_api/utilities/node_wrapper.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities
+copying launch_api/utilities/logger.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities
+copying launch_api/utilities/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/events
+copying launch_api/events/execution_process.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/events
+copying launch_api/events/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/events
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions
+copying launch_api/actions/process_manager.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions
+copying launch_api/actions/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions
+copying launch_api/actions/process.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions
+running install
+running install_lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/process_proxy.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/utilities
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities/node_wrapper.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/utilities
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities/logger.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/utilities
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/utilities/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/utilities
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/service.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/events
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/events/execution_process.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/events
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/events/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/events
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/actions
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions/process_manager.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/actions
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/actions
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/actions/process.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/actions
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/build/lib/launch_api/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/process_proxy.py to process_proxy.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/utilities/node_wrapper.py to node_wrapper.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/utilities/logger.py to logger.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/utilities/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/service.py to service.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/events/execution_process.py to execution_process.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/events/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/actions/process_manager.py to process_manager.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/actions/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/actions/process.py to process.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/share/ament_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/share/ament_index/resource_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/share/ament_index/resource_index/packages
+copying resource/launch_api -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/share/ament_index/resource_index/packages
+copying package.xml -> /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/share/launch_api
+running install_egg_info
+Copying ../../../build/launch_api/launch_api.egg-info to /home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api/lib/python3.10/site-packages/launch_api-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/changgyu/roarm_ws/roarm_ws_em0/build/launch_api/install.log'

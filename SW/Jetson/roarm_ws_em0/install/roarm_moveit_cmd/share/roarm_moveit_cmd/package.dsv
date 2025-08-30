@@ -1,0 +1,8 @@
+source;share/roarm_moveit_cmd/hook/cmake_prefix_path.ps1
+source;share/roarm_moveit_cmd/hook/cmake_prefix_path.dsv
+source;share/roarm_moveit_cmd/hook/cmake_prefix_path.sh
+source;share/roarm_moveit_cmd/local_setup.bash
+source;share/roarm_moveit_cmd/local_setup.dsv
+source;share/roarm_moveit_cmd/local_setup.ps1
+source;share/roarm_moveit_cmd/local_setup.sh
+source;share/roarm_moveit_cmd/local_setup.zsh

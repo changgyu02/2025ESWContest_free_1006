@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:30 (find_package):
+  By not providing "Findmoveit_common.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "moveit_common", but CMake did not find one.
+
+  Could not find a package configuration file provided by "moveit_common"
+  with any of the following names:
+
+    moveit_commonConfig.cmake
+    moveit_common-config.cmake
+
+  Add the installation prefix of "moveit_common" to CMAKE_PREFIX_PATH or set
+  "moveit_common_DIR" to a directory containing one of the above files.  If
+  "moveit_common" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m

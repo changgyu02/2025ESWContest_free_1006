@@ -1,0 +1,13 @@
+{
+  "package_name": "ros2web_interfaces",
+  "non_idl_tuples": [
+    "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/BodyPart.msg",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/ContentType.msg",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/HTTPStatusCode.msg",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/WSMsgData.msg",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/WSMsgType.msg",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:msg/WSMsg.msg",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:srv/HTTP.srv",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces:srv/WS.srv"
+  ]
+}

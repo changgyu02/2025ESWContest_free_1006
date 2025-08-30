@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2web_interfaces/srv/WS.srv
+// generated code does not contain a copyright notice
+
+#include "ros2web_interfaces/msg/WSMsgData.idl"
+
+module ros2web_interfaces {
+  module srv {
+    struct WS_Request {
+      string srv_name;
+
+      string route;
+
+      @verbatim (language="comment", text=
+        "WSMsgType")
+      uint8 type;
+
+      string ws_id;
+
+      ros2web_interfaces::msg::WSMsgData data;
+
+      string extra;
+    };
+    struct WS_Response {
+      @verbatim (language="comment", text=
+        "WSMsgType")
+      uint8 type;
+
+      string ws_id;
+
+      ros2web_interfaces::msg::WSMsgData data;
+
+      string extra;
+    };
+  };
+};

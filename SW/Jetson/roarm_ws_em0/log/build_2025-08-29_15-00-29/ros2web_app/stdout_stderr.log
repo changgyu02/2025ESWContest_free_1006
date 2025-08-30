@@ -1,0 +1,110 @@
+running egg_info
+creating ../../../../build/ros2web_app/ros2web_app.egg-info
+writing ../../../../build/ros2web_app/ros2web_app.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2web_app/ros2web_app.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2web_app/ros2web_app.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2web_app/ros2web_app.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2web_app/ros2web_app.egg-info/top_level.txt
+writing manifest file '../../../../build/ros2web_app/ros2web_app.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ros2web_app/ros2web_app.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2web_app/ros2web_app.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app
+copying ros2web_app/app.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app
+copying ros2web_app/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+copying ros2web_app/utilities/ros_node.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+copying ros2web_app/utilities/yaml.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+copying ros2web_app/utilities/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb
+copying ros2web_app/verb/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb
+copying ros2web_app/verb/create.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate
+copying ros2web_app/boilerplate/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate
+copying ros2web_app/boilerplate/template.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+copying ros2web_app/handler/web_rtc.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+copying ros2web_app/handler/app.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+copying ros2web_app/handler/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+copying ros2web_app/api/state.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+copying ros2web_app/api/app_base.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+copying ros2web_app/api/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+copying ros2web_app/utilities/ros/service.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+copying ros2web_app/utilities/ros/param.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+copying ros2web_app/utilities/ros/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track
+copying ros2web_app/handler/track/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track
+copying ros2web_app/handler/track/image.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public
+copying ros2web_app/data/public/index.html -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public
+copying ros2web_app/data/config.yml -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data
+running install
+running install_lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros_node.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros/service.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros/param.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/ros/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/yaml.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/utilities/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/verb/create.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/app.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/boilerplate/template.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/track/image.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/web_rtc.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/app.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/handler/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/data
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/config.yml -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/data
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/data/public
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/data/public/index.html -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/data/public
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api/state.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api/app_base.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/build/lib/ros2web_app/api/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros_node.py to ros_node.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros/service.py to service.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros/param.py to param.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/ros/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/yaml.py to yaml.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/utilities/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/verb/create.py to create.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/app.py to app.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/boilerplate/template.py to template.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/track/image.py to image.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/web_rtc.py to web_rtc.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/app.py to app.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/handler/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api/state.py to state.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api/app_base.py to app_base.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app/api/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/share/ament_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/share/ament_index/resource_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/share/ament_index/resource_index/packages
+copying resource/ros2web_app -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/share/ament_index/resource_index/packages
+copying package.xml -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/share/ros2web_app
+running install_egg_info
+Copying ../../../../build/ros2web_app/ros2web_app.egg-info to /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages/ros2web_app-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_app/install.log'

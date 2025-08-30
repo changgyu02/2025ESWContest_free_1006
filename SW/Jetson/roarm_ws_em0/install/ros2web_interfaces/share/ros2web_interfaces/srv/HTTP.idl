@@ -1,0 +1,69 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2web_interfaces/srv/HTTP.srv
+// generated code does not contain a copyright notice
+
+#include "ros2web_interfaces/msg/BodyPart.idl"
+
+module ros2web_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "https://docs.aiohttp.org/en/stable/web_reference.html")
+    struct HTTP_Request {
+      @verbatim (language="comment", text=
+        "[<key>, <value>, <key>, <value>, ...]")
+      sequence<string> headers;
+
+      @verbatim (language="comment", text=
+        "HTTP method,")
+      string method;
+
+      @verbatim (language="comment", text=
+        "The URL including PATH INFO without the host or scheme.")
+      string path;
+
+      @verbatim (language="comment", text=
+        "The query string in the URL")
+      string query;
+
+      string srv_name;
+
+      string route;
+
+      sequence<uint8> body;
+
+      string text;
+
+      @verbatim (language="comment", text=
+        "ContentType")
+      string content_type;
+
+      string charset;
+
+      sequence<ros2web_interfaces::msg::BodyPart> multipart;
+    };
+    @verbatim (language="comment", text=
+      "string[] headers")
+    struct HTTP_Response {
+      @verbatim (language="comment", text=
+        "HTTPStatusCode")
+      uint16 status;
+
+      string reason;
+
+      sequence<uint8> body;
+
+      string text;
+
+      @verbatim (language="comment", text=
+        "ContentType")
+      string content_type;
+
+      string charset;
+
+      @verbatim (language="comment", text=
+        "int16 zlib_executor_size" "\n"
+        "int16 zlib_executor")
+      string file_path;
+    };
+  };
+};

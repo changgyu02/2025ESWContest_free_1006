@@ -1,0 +1,635 @@
+[0.232s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'roarm_moveit_cmd'][0m
+[0.232s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['roarm_moveit_cmd'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7de0ad40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7de09cf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7de09cf0>>, mixin_verb=('build',))[0m
+[0.569s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.569s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.569s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.569s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.570s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.570s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.570s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/changgyu/roarm_ws/roarm_ws_em0'
+[0.570s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.570s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.570s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.571s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.571s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.571s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.571s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.571s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.618s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ignore'
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ignore_ament_install'
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['colcon_pkg']
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'colcon_pkg'
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['colcon_meta']
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'colcon_meta'
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['ros']
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'ros'
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['cmake', 'python']
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'cmake'
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'python'
+[0.620s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extensions ['python_setup_py']
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(images) by extension 'python_setup_py'
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.621s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.623s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.624s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extension 'ignore'
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extension 'ignore_ament_install'
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extensions ['colcon_pkg']
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extension 'colcon_pkg'
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extensions ['colcon_meta']
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extension 'colcon_meta'
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extensions ['ros']
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extension 'ros'
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extensions ['cmake', 'python']
+[0.625s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extension 'cmake'
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extension 'python'
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extensions ['python_setup_py']
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else) by extension 'python_setup_py'
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/launch_api) by extensions ['ignore', 'ignore_ament_install']
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/launch_api) by extension 'ignore'
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/launch_api) by extension 'ignore_ament_install'
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/launch_api) by extensions ['colcon_pkg']
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/launch_api) by extension 'colcon_pkg'
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/launch_api) by extensions ['colcon_meta']
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/launch_api) by extension 'colcon_meta'
+[0.626s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/launch_api) by extensions ['ros']
+[0.627s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/launch_api) by extension 'ros'
+[0.631s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_else/launch_api' with type 'ros.ament_python' and name 'launch_api'[0m
+[0.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extension 'ignore'
+[0.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extension 'ignore_ament_install'
+[0.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extensions ['colcon_pkg']
+[0.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extension 'colcon_pkg'
+[0.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extensions ['colcon_meta']
+[0.632s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extension 'colcon_meta'
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extensions ['ros']
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extension 'ros'
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extensions ['cmake', 'python']
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extension 'cmake'
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extension 'python'
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extensions ['python_setup_py']
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2) by extension 'python_setup_py'
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.633s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extension 'ignore'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extension 'ignore_ament_install'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extensions ['colcon_pkg']
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extension 'colcon_pkg'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extensions ['colcon_meta']
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extension 'colcon_meta'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extensions ['ros']
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extension 'ros'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extensions ['cmake', 'python']
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extension 'cmake'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extension 'python'
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extensions ['python_setup_py']
+[0.634s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples) by extension 'python_setup_py'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_cpp) by extension 'ignore'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_cpp) ignored
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['ignore', 'ignore_ament_install']
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'ignore'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'ignore_ament_install'
+[0.635s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['colcon_pkg']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'colcon_pkg'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['colcon_meta']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'colcon_meta'
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extensions ['ros']
+[0.636s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/examples/ros2web_example_py) by extension 'ros'
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_else/ros2web-ros2/examples/ros2web_example_py' with type 'ros.ament_python' and name 'ros2web_example_py'[0m
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web) by extensions ['ignore', 'ignore_ament_install']
+[0.637s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'ignore'
+[0.638s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'ignore_ament_install'
+[0.638s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web) by extensions ['colcon_pkg']
+[0.638s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'colcon_pkg'
+[0.638s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web) by extensions ['colcon_meta']
+[0.638s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'colcon_meta'
+[0.638s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web) by extensions ['ros']
+[0.638s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web) by extension 'ros'
+[0.639s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_else/ros2web-ros2/ros2web' with type 'ros.ament_python' and name 'ros2web'[0m
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'ignore'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'ignore_ament_install'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['colcon_pkg']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'colcon_pkg'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['colcon_meta']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'colcon_meta'
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extensions ['ros']
+[0.640s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web-ros2/ros2web_interfaces) by extension 'ros'
+[0.641s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_else/ros2web-ros2/ros2web_interfaces' with type 'ros.ament_cmake' and name 'ros2web_interfaces'[0m
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extension 'ignore'
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extension 'ignore_ament_install'
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extensions ['colcon_pkg']
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extension 'colcon_pkg'
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extensions ['colcon_meta']
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extension 'colcon_meta'
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extensions ['ros']
+[0.642s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extension 'ros'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extensions ['cmake', 'python']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extension 'cmake'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extension 'python'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extensions ['python_setup_py']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app) by extension 'python_setup_py'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extension 'ignore'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extension 'ignore_ament_install'
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extensions ['colcon_pkg']
+[0.643s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extension 'colcon_pkg'
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extensions ['colcon_meta']
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extension 'colcon_meta'
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extensions ['ros']
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extension 'ros'
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extensions ['cmake', 'python']
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extension 'cmake'
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extension 'python'
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extensions ['python_setup_py']
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples) by extension 'python_setup_py'
+[0.644s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'ignore'
+[0.645s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'ignore_ament_install'
+[0.645s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['colcon_pkg']
+[0.645s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'colcon_pkg'
+[0.645s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['colcon_meta']
+[0.645s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'colcon_meta'
+[0.645s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extensions ['ros']
+[0.645s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/examples/ros2web_widgets) by extension 'ros'
+[0.646s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_else/ros2web_app/examples/ros2web_widgets' with type 'ros.ament_python' and name 'ros2web_widgets'[0m
+[0.646s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/ros2web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.646s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'ignore'
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'ignore_ament_install'
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/ros2web_app) by extensions ['colcon_pkg']
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'colcon_pkg'
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/ros2web_app) by extensions ['colcon_meta']
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'colcon_meta'
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/ros2web_app) by extensions ['ros']
+[0.647s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/ros2web_app) by extension 'ros'
+[0.648s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_else/ros2web_app/ros2web_app' with type 'ros.ament_python' and name 'ros2web_app'[0m
+[0.648s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extension 'ignore'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extension 'ignore_ament_install'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extensions ['colcon_pkg']
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extension 'colcon_pkg'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extensions ['colcon_meta']
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extension 'colcon_meta'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extensions ['ros']
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extension 'ros'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extensions ['cmake', 'python']
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extension 'cmake'
+[0.649s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extension 'python'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extensions ['python_setup_py']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app) by extension 'python_setup_py'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extension 'ignore'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extension 'ignore_ament_install'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['colcon_pkg']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extension 'colcon_pkg'
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['colcon_meta']
+[0.650s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extension 'colcon_meta'
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['ros']
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extension 'ros'
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['cmake', 'python']
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extension 'cmake'
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extension 'python'
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extensions ['python_setup_py']
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src) by extension 'python_setup_py'
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.651s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'ignore'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'ignore_ament_install'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['colcon_pkg']
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'colcon_pkg'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['colcon_meta']
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'colcon_meta'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['ros']
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'ros'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['cmake', 'python']
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'cmake'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'python'
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extensions ['python_setup_py']
+[0.652s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/assets) by extension 'python_setup_py'
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'ignore'
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'ignore_ament_install'
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['colcon_pkg']
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'colcon_pkg'
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['colcon_meta']
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'colcon_meta'
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['ros']
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'ros'
+[0.653s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['cmake', 'python']
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'cmake'
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'python'
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extensions ['python_setup_py']
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components) by extension 'python_setup_py'
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['ignore', 'ignore_ament_install']
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'ignore'
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'ignore_ament_install'
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['colcon_pkg']
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'colcon_pkg'
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['colcon_meta']
+[0.654s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'colcon_meta'
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['ros']
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'ros'
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['cmake', 'python']
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'cmake'
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'python'
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extensions ['python_setup_py']
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Grid) by extension 'python_setup_py'
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'ignore'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'ignore_ament_install'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['colcon_pkg']
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'colcon_pkg'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['colcon_meta']
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'colcon_meta'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['ros']
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'ros'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['cmake', 'python']
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'cmake'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'python'
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extensions ['python_setup_py']
+[0.656s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Image) by extension 'python_setup_py'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'ignore'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'ignore_ament_install'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['colcon_pkg']
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'colcon_pkg'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['colcon_meta']
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'colcon_meta'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['ros']
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'ros'
+[0.657s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['cmake', 'python']
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'cmake'
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'python'
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extensions ['python_setup_py']
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/InputGroup) by extension 'python_setup_py'
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['ignore', 'ignore_ament_install']
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'ignore'
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'ignore_ament_install'
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['colcon_pkg']
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'colcon_pkg'
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['colcon_meta']
+[0.658s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'colcon_meta'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['ros']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'ros'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['cmake', 'python']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'cmake'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'python'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extensions ['python_setup_py']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Joystick) by extension 'python_setup_py'
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['ignore', 'ignore_ament_install']
+[0.659s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'ignore'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'ignore_ament_install'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['colcon_pkg']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'colcon_pkg'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['colcon_meta']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'colcon_meta'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['ros']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'ros'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['cmake', 'python']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'cmake'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'python'
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extensions ['python_setup_py']
+[0.660s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleInput) by extension 'python_setup_py'
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'ignore'
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'ignore_ament_install'
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['colcon_pkg']
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'colcon_pkg'
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['colcon_meta']
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'colcon_meta'
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['ros']
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'ros'
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['cmake', 'python']
+[0.661s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'cmake'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'python'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extensions ['python_setup_py']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/SimpleList) by extension 'python_setup_py'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'ignore'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'ignore_ament_install'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['colcon_pkg']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'colcon_pkg'
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['colcon_meta']
+[0.662s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'colcon_meta'
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['ros']
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'ros'
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['cmake', 'python']
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'cmake'
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'python'
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extensions ['python_setup_py']
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Slider) by extension 'python_setup_py'
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'ignore'
+[0.663s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'ignore_ament_install'
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['colcon_pkg']
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'colcon_pkg'
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['colcon_meta']
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'colcon_meta'
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['ros']
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'ros'
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['cmake', 'python']
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'cmake'
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'python'
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extensions ['python_setup_py']
+[0.664s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/components/Switch) by extension 'python_setup_py'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'ignore'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'ignore_ament_install'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['colcon_pkg']
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'colcon_pkg'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['colcon_meta']
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'colcon_meta'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['ros']
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'ros'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['cmake', 'python']
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'cmake'
+[0.665s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'python'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extensions ['python_setup_py']
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers) by extension 'python_setup_py'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['ignore', 'ignore_ament_install']
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'ignore'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'ignore_ament_install'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['colcon_pkg']
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'colcon_pkg'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['colcon_meta']
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'colcon_meta'
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['ros']
+[0.666s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'ros'
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['cmake', 'python']
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'cmake'
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'python'
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extensions ['python_setup_py']
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/containers/App) by extension 'python_setup_py'
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'ignore'
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'ignore_ament_install'
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['colcon_pkg']
+[0.667s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'colcon_pkg'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['colcon_meta']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'colcon_meta'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['ros']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'ros'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['cmake', 'python']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'cmake'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'python'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extensions ['python_setup_py']
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/hooks) by extension 'python_setup_py'
+[0.668s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'ignore'
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'ignore_ament_install'
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['colcon_pkg']
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'colcon_pkg'
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['colcon_meta']
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'colcon_meta'
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['ros']
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'ros'
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['cmake', 'python']
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'cmake'
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'python'
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extensions ['python_setup_py']
+[0.669s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/routes) by extension 'python_setup_py'
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'ignore'
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'ignore_ament_install'
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['colcon_pkg']
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'colcon_pkg'
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['colcon_meta']
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'colcon_meta'
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['ros']
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'ros'
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['cmake', 'python']
+[0.670s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'cmake'
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'python'
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extensions ['python_setup_py']
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/styles) by extension 'python_setup_py'
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'ignore'
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'ignore_ament_install'
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['colcon_pkg']
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'colcon_pkg'
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['colcon_meta']
+[0.671s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'colcon_meta'
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['ros']
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'ros'
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['cmake', 'python']
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'cmake'
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'python'
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extensions ['python_setup_py']
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_else/ros2web_app/web_app/src/utils) by extension 'python_setup_py'
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extension 'ignore'
+[0.672s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extension 'ignore_ament_install'
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extensions ['colcon_pkg']
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extension 'colcon_pkg'
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extensions ['colcon_meta']
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extension 'colcon_meta'
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extensions ['ros']
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extension 'ros'
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extensions ['cmake', 'python']
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extension 'cmake'
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extension 'python'
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extensions ['python_setup_py']
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main) by extension 'python_setup_py'
+[0.673s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/moveit_servo) by extensions ['ignore', 'ignore_ament_install']
+[0.674s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/moveit_servo) by extension 'ignore'
+[0.674s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/moveit_servo) by extension 'ignore_ament_install'
+[0.674s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/moveit_servo) by extensions ['colcon_pkg']
+[0.674s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/moveit_servo) by extension 'colcon_pkg'
+[0.674s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/moveit_servo) by extensions ['colcon_meta']
+[0.674s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/moveit_servo) by extension 'colcon_meta'
+[0.674s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/moveit_servo) by extensions ['ros']
+[0.674s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/moveit_servo) by extension 'ros'
+[0.677s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_main/moveit_servo' with type 'ros.ament_cmake' and name 'moveit_servo'[0m
+[0.677s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.677s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_description) by extension 'ignore'
+[0.677s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_description) by extension 'ignore_ament_install'
+[0.678s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_description) by extensions ['colcon_pkg']
+[0.678s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_description) by extension 'colcon_pkg'
+[0.678s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_description) by extensions ['colcon_meta']
+[0.678s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_description) by extension 'colcon_meta'
+[0.678s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_description) by extensions ['ros']
+[0.678s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_description) by extension 'ros'
+[0.679s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_main/roarm_description' with type 'ros.ament_cmake' and name 'roarm_description'[0m
+[0.679s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.679s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_driver) by extension 'ignore'
+[0.679s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_driver) by extension 'ignore_ament_install'
+[0.679s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_driver) by extensions ['colcon_pkg']
+[0.680s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_driver) by extension 'colcon_pkg'
+[0.680s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_driver) by extensions ['colcon_meta']
+[0.680s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_driver) by extension 'colcon_meta'
+[0.680s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_driver) by extensions ['ros']
+[0.680s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_driver) by extension 'ros'
+[0.681s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_main/roarm_driver' with type 'ros.ament_python' and name 'roarm_driver'[0m
+[0.681s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.681s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit) by extension 'ignore'
+[0.681s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit) by extension 'ignore_ament_install'
+[0.681s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit) by extensions ['colcon_pkg']
+[0.681s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit) by extension 'colcon_pkg'
+[0.682s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit) by extensions ['colcon_meta']
+[0.682s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit) by extension 'colcon_meta'
+[0.682s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit) by extensions ['ros']
+[0.682s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit) by extension 'ros'
+[0.683s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_main/roarm_moveit' with type 'ros.ament_cmake' and name 'roarm_moveit'[0m
+[0.684s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_cmd) by extensions ['ignore', 'ignore_ament_install']
+[0.684s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_cmd) by extension 'ignore'
+[0.684s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_cmd) by extension 'ignore_ament_install'
+[0.684s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_cmd) by extensions ['colcon_pkg']
+[0.684s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_cmd) by extension 'colcon_pkg'
+[0.684s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_cmd) by extensions ['colcon_meta']
+[0.684s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_cmd) by extension 'colcon_meta'
+[0.684s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_cmd) by extensions ['ros']
+[0.684s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_cmd) by extension 'ros'
+[0.688s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_main/roarm_moveit_cmd' with type 'ros.ament_cmake' and name 'roarm_moveit_cmd'[0m
+[0.688s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.688s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'ignore'
+[0.689s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'ignore_ament_install'
+[0.689s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['colcon_pkg']
+[0.689s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'colcon_pkg'
+[0.689s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['colcon_meta']
+[0.689s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'colcon_meta'
+[0.689s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extensions ['ros']
+[0.689s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_moveit_ikfast_plugins) by extension 'ros'
+[0.690s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_main/roarm_moveit_ikfast_plugins' with type 'ros.ament_cmake' and name 'roarm_moveit_ikfast_plugins'[0m
+[0.690s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_web_app) by extensions ['ignore', 'ignore_ament_install']
+[0.691s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_web_app) by extension 'ignore'
+[0.691s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_web_app) by extension 'ignore_ament_install'
+[0.691s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_web_app) by extensions ['colcon_pkg']
+[0.691s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_web_app) by extension 'colcon_pkg'
+[0.691s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_web_app) by extensions ['colcon_meta']
+[0.691s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_web_app) by extension 'colcon_meta'
+[0.691s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_web_app) by extensions ['ros']
+[0.691s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/roarm_main/roarm_web_app) by extension 'ros'
+[0.692s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/roarm_main/roarm_web_app' with type 'ros.ament_python' and name 'roarm_web_app'[0m
+[0.692s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.692s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.692s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.692s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.692s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.729s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'launch_api' in 'src/roarm_else/launch_api'
+[0.729s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'moveit_servo' in 'src/roarm_main/moveit_servo'
+[0.729s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'roarm_description' in 'src/roarm_main/roarm_description'
+[0.729s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'roarm_moveit_ikfast_plugins' in 'src/roarm_main/roarm_moveit_ikfast_plugins'
+[0.730s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'ros2web_interfaces' in 'src/roarm_else/ros2web-ros2/ros2web_interfaces'
+[0.730s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'roarm_moveit' in 'src/roarm_main/roarm_moveit'
+[0.730s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'ros2web' in 'src/roarm_else/ros2web-ros2/ros2web'
+[0.730s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'ros2web_app' in 'src/roarm_else/ros2web_app/ros2web_app'
+[0.730s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'ros2web_example_py' in 'src/roarm_else/ros2web-ros2/examples/ros2web_example_py'
+[0.730s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'roarm_driver' in 'src/roarm_main/roarm_driver'
+[0.730s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'roarm_web_app' in 'src/roarm_main/roarm_web_app'
+[0.730s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'ros2web_widgets' in 'src/roarm_else/ros2web_app/examples/ros2web_widgets'
+[0.731s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.731s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.735s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 13 installed packages in /home/changgyu/roarm_ws/roarm_ws_em0/install[0m
+[0.738s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 368 installed packages in /opt/ros/humble[0m
+[0.741s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.822s] [34mcolcon.colcon_core.package_selection[0m [1;30mWARNING[0m [33mSome selected packages are already built in one or more underlay workspaces:
+	'roarm_moveit_cmd' is in: /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding roarm_moveit_cmd
+
+This may be promoted to an error in a future release of colcon-override-check.[0m
+[0.824s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'roarm_moveit_cmd' build argument 'cmake_args' from command line to 'None'
+[0.824s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'roarm_moveit_cmd' build argument 'cmake_target' from command line to 'None'
+[0.824s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'roarm_moveit_cmd' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'roarm_moveit_cmd' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'roarm_moveit_cmd' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'roarm_moveit_cmd' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'roarm_moveit_cmd' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'roarm_moveit_cmd' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'roarm_moveit_cmd' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.825s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'roarm_moveit_cmd' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd', 'merge_install': False, 'path': '/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd', 'symlink_install': False, 'test_result_base': None}[0m
+[0.825s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.827s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.828s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd' with build type 'ament_cmake'
+[0.828s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit_cmd'
+[0.832s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.832s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.858s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd': CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api:/opt/ros/humble LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 /usr/local/bin/cmake --build /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd -- -j6 -l6[0m
+[25.849s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api:/opt/ros/humble LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 /usr/local/bin/cmake --build /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd -- -j6 -l6[0m
+[25.860s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd': CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api:/opt/ros/humble LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 /usr/local/bin/cmake --install /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd[0m
+[25.882s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(roarm_moveit_cmd)
+[25.885s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd' returned '0': CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_example_py:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver:/home/changgyu/roarm_ws/roarm_ws_em0/install/launch_api:/opt/ros/humble LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_ikfast_plugins/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 /usr/local/bin/cmake --install /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_cmd[0m
+[25.894s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd' for CMake module files
+[25.896s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd' for CMake config files
+[25.898s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('roarm_moveit_cmd', 'cmake_prefix_path')
+[25.899s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.ps1'
+[25.902s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.dsv'
+[25.904s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.sh'
+[25.908s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib'
+[25.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/bin'
+[25.909s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/pkgconfig/roarm_moveit_cmd.pc'
+[25.910s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/python3.10/site-packages'
+[25.911s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/bin'
+[25.912s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.ps1'
+[25.916s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv'
+[25.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.sh'
+[25.921s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.bash'
+[25.924s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.zsh'
+[25.926s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/colcon-core/packages/roarm_moveit_cmd)
+[25.929s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(roarm_moveit_cmd)
+[25.930s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd' for CMake module files
+[25.932s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd' for CMake config files
+[25.933s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('roarm_moveit_cmd', 'cmake_prefix_path')
+[25.934s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.ps1'
+[25.936s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.dsv'
+[25.937s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/hook/cmake_prefix_path.sh'
+[25.939s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib'
+[25.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/bin'
+[25.940s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/pkgconfig/roarm_moveit_cmd.pc'
+[25.941s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/lib/python3.10/site-packages'
+[25.941s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/bin'
+[25.942s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.ps1'
+[25.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.dsv'
+[25.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.sh'
+[25.946s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.bash'
+[25.947s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/roarm_moveit_cmd/package.zsh'
+[25.947s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd/share/colcon-core/packages/roarm_moveit_cmd)
+[25.948s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[25.949s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[25.949s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[25.949s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[25.965s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.966s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.966s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[26.009s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[26.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/changgyu/roarm_ws/roarm_ws_em0/install/local_setup.ps1'
+[26.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/changgyu/roarm_ws/roarm_ws_em0/install/_local_setup_util_ps1.py'
+[26.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/changgyu/roarm_ws/roarm_ws_em0/install/setup.ps1'
+[26.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/changgyu/roarm_ws/roarm_ws_em0/install/local_setup.sh'
+[26.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/changgyu/roarm_ws/roarm_ws_em0/install/_local_setup_util_sh.py'
+[26.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/changgyu/roarm_ws/roarm_ws_em0/install/setup.sh'
+[26.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/changgyu/roarm_ws/roarm_ws_em0/install/local_setup.bash'
+[26.030s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/changgyu/roarm_ws/roarm_ws_em0/install/setup.bash'
+[26.033s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/changgyu/roarm_ws/roarm_ws_em0/install/local_setup.zsh'
+[26.034s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/changgyu/roarm_ws/roarm_ws_em0/install/setup.zsh'

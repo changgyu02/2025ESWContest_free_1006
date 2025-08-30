@@ -1,0 +1,37 @@
+running egg_info
+creating ../../../build/roarm_driver/roarm_driver.egg-info
+writing ../../../build/roarm_driver/roarm_driver.egg-info/PKG-INFO
+writing dependency_links to ../../../build/roarm_driver/roarm_driver.egg-info/dependency_links.txt
+writing entry points to ../../../build/roarm_driver/roarm_driver.egg-info/entry_points.txt
+writing requirements to ../../../build/roarm_driver/roarm_driver.egg-info/requires.txt
+writing top-level names to ../../../build/roarm_driver/roarm_driver.egg-info/top_level.txt
+writing manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+reading manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+writing manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver
+copying roarm_driver/roarm_driver.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver
+copying roarm_driver/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver
+running install
+running install_lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver/roarm_driver.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver/roarm_driver.py to roarm_driver.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/ament_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/ament_index/resource_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/ament_index/resource_index/packages
+copying resource/roarm_driver -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/roarm_driver
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/roarm_driver/launch
+copying launch/roarm_launch.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/roarm_driver/launch
+running install_egg_info
+Copying ../../../build/roarm_driver/roarm_driver.egg-info to /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing roarm_driver script to /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/roarm_driver
+writing list of installed files to '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/install.log'

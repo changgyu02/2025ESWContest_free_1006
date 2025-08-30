@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-53d9410d9a384c7eaf02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "roarm_moveit__py",
+					"jsonFile" : "directory-roarm_moveit__py-bad9f5114e2b309e7e04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit/roarm_moveit__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "roarm_moveit",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_roarm_moveit_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_roarm_moveit_egg-424b79820dfb4d1ebe8c.json",
+					"name" : "ament_cmake_python_build_roarm_moveit_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_roarm_moveit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_roarm_moveit-05ba1c19e7b22911d409.json",
+					"name" : "ament_cmake_python_copy_roarm_moveit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit-0f9ba248a42a22b71735.json",
+					"name" : "roarm_moveit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__cpp-5f72f2e886a058de4fcd.json",
+					"name" : "roarm_moveit__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "roarm_moveit__py::@a8f65da24c1b86a39b9f",
+					"jsonFile" : "target-roarm_moveit__py-b55c0cab53f4d8b32359.json",
+					"name" : "roarm_moveit__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_generator_c-4aa798837301fc0eb685.json",
+					"name" : "roarm_moveit__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_generator_py-91d742cf0622d7b3716e.json",
+					"name" : "roarm_moveit__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_typesupport_c-682031c86bc02305e0ea.json",
+					"name" : "roarm_moveit__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_typesupport_c__pyext-0b79bc4c659360643907.json",
+					"name" : "roarm_moveit__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_typesupport_cpp-e236069114586ad4bc3e.json",
+					"name" : "roarm_moveit__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_typesupport_fastrtps_c-ce0626a100de292f92af.json",
+					"name" : "roarm_moveit__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_typesupport_fastrtps_c__pyext-a4b85f2ebc13f84f4e55.json",
+					"name" : "roarm_moveit__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_typesupport_fastrtps_cpp-687cf9e8da0ff31ae9b3.json",
+					"name" : "roarm_moveit__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_typesupport_introspection_c-305118fa7567c18324b2.json",
+					"name" : "roarm_moveit__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_typesupport_introspection_c__pyext-2f672b7b9e89f7af622d.json",
+					"name" : "roarm_moveit__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit__rosidl_typesupport_introspection_cpp-85d23498dc7136fc39f5.json",
+					"name" : "roarm_moveit__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit_uninstall-71d9f63cd45130f981a8.json",
+					"name" : "roarm_moveit_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-798302aa626e6209f89e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit",
+		"source" : "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

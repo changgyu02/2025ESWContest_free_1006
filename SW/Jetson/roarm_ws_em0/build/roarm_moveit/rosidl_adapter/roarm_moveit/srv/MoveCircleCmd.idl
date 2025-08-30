@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_moveit/srv/MoveCircleCmd.srv
+// generated code does not contain a copyright notice
+
+
+module roarm_moveit {
+  module srv {
+    @verbatim (language="comment", text=
+      "MoveCircleCmd.srv")
+    struct MoveCircleCmd_Request {
+      @verbatim (language="comment", text=
+        "원의 중심 x 좌표")
+      double x;
+
+      @verbatim (language="comment", text=
+        "원의 중심 y 좌표")
+      double y;
+
+      @verbatim (language="comment", text=
+        "원을 그릴 높이 (z축)")
+      double z;
+
+      @verbatim (language="comment", text=
+        "원의 반지름")
+      double radius;
+    };
+    struct MoveCircleCmd_Response {
+      @verbatim (language="comment", text=
+        "실행 성공 여부")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "실행 결과 메시지")
+      string message;
+    };
+  };
+};

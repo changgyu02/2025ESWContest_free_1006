@@ -1,0 +1,9 @@
+[ros2cli.command]
+web = ros2web.command.web:WebCommand
+
+[ros2cli.extension_point]
+ros2web.verb = ros2web.verb:VerbExtension
+
+[ros2web.verb]
+server = ros2web.verb.server:ServerVerb
+

@@ -1,0 +1,193 @@
+// generated from rosidl_generator_cpp/resource/idl__struct.hpp.em
+// with input from ros2web_interfaces:msg/WSMsg.idl
+// generated code does not contain a copyright notice
+
+#ifndef ROS2WEB_INTERFACES__MSG__DETAIL__WS_MSG__STRUCT_HPP_
+#define ROS2WEB_INTERFACES__MSG__DETAIL__WS_MSG__STRUCT_HPP_
+
+#include <algorithm>
+#include <array>
+#include <memory>
+#include <string>
+#include <vector>
+
+#include "rosidl_runtime_cpp/bounded_vector.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
+
+
+// Include directives for member types
+// Member 'data'
+#include "ros2web_interfaces/msg/detail/ws_msg_data__struct.hpp"
+
+#ifndef _WIN32
+# define DEPRECATED__ros2web_interfaces__msg__WSMsg __attribute__((deprecated))
+#else
+# define DEPRECATED__ros2web_interfaces__msg__WSMsg __declspec(deprecated)
+#endif
+
+namespace ros2web_interfaces
+{
+
+namespace msg
+{
+
+// message struct
+template<class ContainerAllocator>
+struct WSMsg_
+{
+  using Type = WSMsg_<ContainerAllocator>;
+
+  explicit WSMsg_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : data(_init)
+  {
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->route = "";
+      this->ws_id = "";
+      this->type = 0;
+      this->extra = "";
+    }
+  }
+
+  explicit WSMsg_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : route(_alloc),
+    ws_id(_alloc),
+    data(_alloc, _init),
+    extra(_alloc)
+  {
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->route = "";
+      this->ws_id = "";
+      this->type = 0;
+      this->extra = "";
+    }
+  }
+
+  // field types and members
+  using _route_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _route_type route;
+  using _ws_id_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _ws_id_type ws_id;
+  using _type_type =
+    uint8_t;
+  _type_type type;
+  using _data_type =
+    ros2web_interfaces::msg::WSMsgData_<ContainerAllocator>;
+  _data_type data;
+  using _extra_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _extra_type extra;
+
+  // setters for named parameter idiom
+  Type & set__route(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->route = _arg;
+    return *this;
+  }
+  Type & set__ws_id(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->ws_id = _arg;
+    return *this;
+  }
+  Type & set__type(
+    const uint8_t & _arg)
+  {
+    this->type = _arg;
+    return *this;
+  }
+  Type & set__data(
+    const ros2web_interfaces::msg::WSMsgData_<ContainerAllocator> & _arg)
+  {
+    this->data = _arg;
+    return *this;
+  }
+  Type & set__extra(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->extra = _arg;
+    return *this;
+  }
+
+  // constant declarations
+
+  // pointer types
+  using RawPtr =
+    ros2web_interfaces::msg::WSMsg_<ContainerAllocator> *;
+  using ConstRawPtr =
+    const ros2web_interfaces::msg::WSMsg_<ContainerAllocator> *;
+  using SharedPtr =
+    std::shared_ptr<ros2web_interfaces::msg::WSMsg_<ContainerAllocator>>;
+  using ConstSharedPtr =
+    std::shared_ptr<ros2web_interfaces::msg::WSMsg_<ContainerAllocator> const>;
+
+  template<typename Deleter = std::default_delete<
+      ros2web_interfaces::msg::WSMsg_<ContainerAllocator>>>
+  using UniquePtrWithDeleter =
+    std::unique_ptr<ros2web_interfaces::msg::WSMsg_<ContainerAllocator>, Deleter>;
+
+  using UniquePtr = UniquePtrWithDeleter<>;
+
+  template<typename Deleter = std::default_delete<
+      ros2web_interfaces::msg::WSMsg_<ContainerAllocator>>>
+  using ConstUniquePtrWithDeleter =
+    std::unique_ptr<ros2web_interfaces::msg::WSMsg_<ContainerAllocator> const, Deleter>;
+  using ConstUniquePtr = ConstUniquePtrWithDeleter<>;
+
+  using WeakPtr =
+    std::weak_ptr<ros2web_interfaces::msg::WSMsg_<ContainerAllocator>>;
+  using ConstWeakPtr =
+    std::weak_ptr<ros2web_interfaces::msg::WSMsg_<ContainerAllocator> const>;
+
+  // pointer types similar to ROS 1, use SharedPtr / ConstSharedPtr instead
+  // NOTE: Can't use 'using' here because GNU C++ can't parse attributes properly
+  typedef DEPRECATED__ros2web_interfaces__msg__WSMsg
+    std::shared_ptr<ros2web_interfaces::msg::WSMsg_<ContainerAllocator>>
+    Ptr;
+  typedef DEPRECATED__ros2web_interfaces__msg__WSMsg
+    std::shared_ptr<ros2web_interfaces::msg::WSMsg_<ContainerAllocator> const>
+    ConstPtr;
+
+  // comparison operators
+  bool operator==(const WSMsg_ & other) const
+  {
+    if (this->route != other.route) {
+      return false;
+    }
+    if (this->ws_id != other.ws_id) {
+      return false;
+    }
+    if (this->type != other.type) {
+      return false;
+    }
+    if (this->data != other.data) {
+      return false;
+    }
+    if (this->extra != other.extra) {
+      return false;
+    }
+    return true;
+  }
+  bool operator!=(const WSMsg_ & other) const
+  {
+    return !this->operator==(other);
+  }
+};  // struct WSMsg_
+
+// alias to use template instance with default allocator
+using WSMsg =
+  ros2web_interfaces::msg::WSMsg_<std::allocator<void>>;
+
+// constant definitions
+
+}  // namespace msg
+
+}  // namespace ros2web_interfaces
+
+#endif  // ROS2WEB_INTERFACES__MSG__DETAIL__WS_MSG__STRUCT_HPP_

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2web_interfaces/msg/WSMsgType.msg
+// generated code does not contain a copyright notice
+
+
+module ros2web_interfaces {
+  module msg {
+    module WSMsgType_Constants {
+      const uint8 CONTINUATION = 0;
+      const uint8 TEXT = 1;
+      const uint8 BINARY = 2;
+      const uint8 PING = 11;
+      const uint8 PONG = 12;
+      const uint8 CLOSE = 21;
+      const uint8 CLOSING = 22;
+      const uint8 CLOSED = 23;
+      const uint8 ERROR = 31;
+    };
+    struct WSMsgType {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

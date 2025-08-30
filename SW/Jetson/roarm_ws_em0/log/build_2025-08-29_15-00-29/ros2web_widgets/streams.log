@@ -1,0 +1,37 @@
+[2.074s] Invoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets': AMENT_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_widgets build --build-base /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build install --record /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/install.log --single-version-externally-managed install_data
+[2.593s] running egg_info
+[2.594s] creating ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info
+[2.594s] writing ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/PKG-INFO
+[2.594s] writing dependency_links to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/dependency_links.txt
+[2.594s] writing entry points to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/entry_points.txt
+[2.595s] writing requirements to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/requires.txt
+[2.595s] writing top-level names to ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/top_level.txt
+[2.595s] writing manifest file '../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/SOURCES.txt'
+[2.595s] reading manifest file '../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/SOURCES.txt'
+[2.597s] writing manifest file '../../../../../build/ros2web_widgets/ros2web_widgets.egg-info/SOURCES.txt'
+[2.597s] running build
+[2.597s] running build_py
+[2.597s] creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build
+[2.598s] creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib
+[2.598s] creating /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets
+[2.598s] copying ros2web_widgets/widgets.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets
+[2.600s] copying ros2web_widgets/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets
+[2.600s] running install
+[2.601s] running install_lib
+[2.604s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets
+[2.604s] copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets/widgets.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets
+[2.604s] copying /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build/lib/ros2web_widgets/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets
+[2.606s] byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets/widgets.py to widgets.cpython-310.pyc
+[2.608s] byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets/__init__.py to __init__.cpython-310.pyc
+[2.608s] running install_data
+[2.609s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ament_index
+[2.609s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ament_index/resource_index
+[2.609s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ament_index/resource_index/packages
+[2.609s] copying resource/ros2web_widgets -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ament_index/resource_index/packages
+[2.610s] copying package.xml -> /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/share/ros2web_widgets
+[2.610s] running install_egg_info
+[2.615s] Copying ../../../../../build/ros2web_widgets/ros2web_widgets.egg-info to /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages/ros2web_widgets-0.0.0-py3.10.egg-info
+[2.617s] running install_scripts
+[2.667s] Installing widgets script to /home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/ros2web_widgets
+[2.668s] writing list of installed files to '/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/install.log'
+[2.761s] Invoked command in '/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web_app/examples/ros2web_widgets' returned '0': AMENT_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_widgets/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../../build/ros2web_widgets build --build-base /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/build install --record /home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_widgets/install.log --single-version-externally-managed install_data

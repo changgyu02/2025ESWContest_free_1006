@@ -1,0 +1,37 @@
+[2.004s] Invoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_web_app': AMENT_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_web_app build --build-base /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build install --record /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/install.log --single-version-externally-managed install_data
+[2.548s] running egg_info
+[2.549s] creating ../../../build/roarm_web_app/roarm_web_app.egg-info
+[2.549s] writing ../../../build/roarm_web_app/roarm_web_app.egg-info/PKG-INFO
+[2.550s] writing dependency_links to ../../../build/roarm_web_app/roarm_web_app.egg-info/dependency_links.txt
+[2.550s] writing entry points to ../../../build/roarm_web_app/roarm_web_app.egg-info/entry_points.txt
+[2.551s] writing requirements to ../../../build/roarm_web_app/roarm_web_app.egg-info/requires.txt
+[2.551s] writing top-level names to ../../../build/roarm_web_app/roarm_web_app.egg-info/top_level.txt
+[2.551s] writing manifest file '../../../build/roarm_web_app/roarm_web_app.egg-info/SOURCES.txt'
+[2.555s] reading manifest file '../../../build/roarm_web_app/roarm_web_app.egg-info/SOURCES.txt'
+[2.556s] writing manifest file '../../../build/roarm_web_app/roarm_web_app.egg-info/SOURCES.txt'
+[2.556s] running build
+[2.557s] running build_py
+[2.557s] creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build
+[2.557s] creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib
+[2.557s] creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app
+[2.557s] copying roarm_web_app/roarm_web_app.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app
+[2.565s] copying roarm_web_app/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app
+[2.565s] running install
+[2.566s] running install_lib
+[2.568s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app
+[2.568s] copying /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app/roarm_web_app.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app
+[2.568s] copying /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app
+[2.569s] byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app/roarm_web_app.py to roarm_web_app.cpython-310.pyc
+[2.572s] byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app/__init__.py to __init__.cpython-310.pyc
+[2.572s] running install_data
+[2.573s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/ament_index
+[2.573s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/ament_index/resource_index
+[2.573s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/ament_index/resource_index/packages
+[2.573s] copying resource/roarm_web_app -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/ament_index/resource_index/packages
+[2.573s] copying package.xml -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app
+[2.573s] running install_egg_info
+[2.578s] Copying ../../../build/roarm_web_app/roarm_web_app.egg-info to /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app-0.0.0-py3.10.egg-info
+[2.579s] running install_scripts
+[2.622s] Installing roarm_web_app script to /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/roarm_web_app
+[2.623s] writing list of installed files to '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/install.log'
+[2.717s] Invoked command in '/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_web_app' returned '0': AMENT_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_app/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_web_app build --build-base /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build install --record /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/install.log --single-version-externally-managed install_data

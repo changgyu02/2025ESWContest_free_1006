@@ -1,0 +1,31 @@
+[0.031s] Invoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces': /usr/local/bin/cmake /home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces -DCMAKE_INSTALL_PREFIX=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces
+[0.485s] -- The C compiler identification is GNU 11.4.0
+[0.487s] -- The CXX compiler identification is GNU 11.4.0
+[0.488s] -- Detecting C compiler ABI info
+[0.488s] -- Detecting C compiler ABI info - done
+[0.488s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.488s] -- Detecting C compile features
+[0.489s] -- Detecting C compile features - done
+[0.489s] -- Detecting CXX compiler ABI info
+[0.544s] -- Detecting CXX compiler ABI info - done
+[0.577s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.578s] -- Detecting CXX compile features
+[0.579s] -- Detecting CXX compile features - done
+[0.609s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.609s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.610s]   has asked CMake to find a package configuration file provided by
+[0.610s]   "ament_cmake", but CMake did not find one.
+[0.610s] 
+[0.610s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.611s]   any of the following names:
+[0.611s] 
+[0.611s]     ament_cmakeConfig.cmake
+[0.613s]     ament_cmake-config.cmake
+[0.614s] 
+[0.615s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.615s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.617s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.618s]   has been installed.
+[0.620s] 
+[0.621s] [0m
+[0.621s] -- Configuring incomplete, errors occurred!

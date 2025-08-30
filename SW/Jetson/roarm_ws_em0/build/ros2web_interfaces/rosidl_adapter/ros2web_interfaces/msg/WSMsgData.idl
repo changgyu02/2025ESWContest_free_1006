@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2web_interfaces/msg/WSMsgData.msg
+// generated code does not contain a copyright notice
+
+
+module ros2web_interfaces {
+  module msg {
+    struct WSMsgData {
+      string str;
+
+      sequence<uint8> bytes;
+    };
+  };
+};

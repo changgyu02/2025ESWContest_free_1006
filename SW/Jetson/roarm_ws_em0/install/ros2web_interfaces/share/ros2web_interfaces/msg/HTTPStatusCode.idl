@@ -1,0 +1,72 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2web_interfaces/msg/HTTPStatusCode.msg
+// generated code does not contain a copyright notice
+
+
+module ros2web_interfaces {
+  module msg {
+    module HTTPStatusCode_Constants {
+      const uint16 HTTP_OK = 200;
+      const uint16 HTTP_ACCEPTED = 202;
+      const uint16 HTTP_NON_AUTHORITATIVE_INFORMATION = 203;
+      const uint16 HTTP_NO_CONTENT = 204;
+      const uint16 HTTP_RESET_CONTENT = 205;
+      const uint16 HTTP_PARTIAL_CONTENT = 206;
+      @verbatim (language="comment", text=
+        "HTTP REDIRECTION")
+      const uint16 HTTP_MULTIPLE_CHOICES = 300;
+      const uint16 HTTP_MOVED_PERMANENTLY = 301;
+      const uint16 HTTP_FOUND = 302;
+      const uint16 HTTP_SEE_OTHER = 303;
+      const uint16 HTTP_NOT_MODIFIED = 304;
+      const uint16 HTTP_USE_PROXY = 305;
+      const uint16 HTTP_TEMPORARY_REDIRECT = 307;
+      const uint16 HTTP_PERMANENT_REDIRECT = 308;
+      @verbatim (language="comment", text=
+        "HTTP ERROR" "\n"        "HTTP CLIENT ERROR")
+      const uint16 HTTP_BAD_REQUEST = 400;
+      const uint16 HTTP_UNAUTHORIZED = 401;
+      const uint16 HTTP_PAYMENT_REQUIRED = 402;
+      const uint16 HTTP_FORBIDDEN = 403;
+      const uint16 HTTP_NOT_FOUND = 404;
+      const uint16 HTTP_METHOD_NOT_ALLOWED = 405;
+      const uint16 HTTP_NOT_ACCEPTABLE = 406;
+      const uint16 HTTP_PROXY_AUTHENTICATION_REQUIRED = 407;
+      const uint16 HTTP_REQUEST_TIMEOUT = 408;
+      const uint16 HTTP_CONFLICT = 409;
+      const uint16 HTTP_GONE = 410;
+      const uint16 HTTP_LENGTH_REQUIRED = 411;
+      const uint16 HTTP_PRECONDITION_FAILED = 412;
+      const uint16 HTTP_REQUEST_ENTITY_TOO_LARGE = 413;
+      const uint16 HTTP_REQUEST_URI_TOOLONG = 414;
+      const uint16 HTTP_UNSUPPORTED_MEDIA_TYPE = 415;
+      const uint16 HTTP_REQUEST_RANGE_NOT_SATISFIABLE = 416;
+      const uint16 HTTP_EXPECTATION_FAILED = 417;
+      const uint16 HTTP_MISDIRECTED_REQUEST = 421;
+      const uint16 HTTP_UNPROCESSABLE_ENTITY = 422;
+      const uint16 HTTP_FAILED_DEPENDENCY = 424;
+      const uint16 HTTP_UPGRADE_REQUIRED = 426;
+      const uint16 HTTP_PRECONDITION_REQUIRED = 428;
+      const uint16 HTTP_TOO_MANY_REQUESTS = 429;
+      const uint16 HTTP_REQUEST_HEADER_FIELDS_TOO_LARGE = 431;
+      const uint16 HTTP_UNAVAILABLE_FOR_LEGAL_REASONS = 451;
+      @verbatim (language="comment", text=
+        "HTTP SERVER ERROR")
+      const uint16 HTTP_INTERNAL_SERVER_ERROR = 500;
+      const uint16 HTTP_NOT_IMPLEMENTED = 501;
+      const uint16 HTTP_BAD_GATEWAY = 502;
+      const uint16 HTTP_SERVICE_UNAVAILABLE = 503;
+      const uint16 HTTP_GATEWAY_TIMEOUT = 504;
+      const uint16 HTTP_VERSION_NOT_SUPPORTED = 505;
+      const uint16 HTTP_VARIANT_ALSO_NEGOTIATES = 506;
+      const uint16 HTTP_INSUFFICIENT_STORAGE = 507;
+      const uint16 HTTP_NOT_EXTENDED = 510;
+      const uint16 HTTP_NETWORK_AUTHENTICATION_REQUIRED = 511;
+    };
+    @verbatim (language="comment", text=
+      "HTTP Successful")
+    struct HTTPStatusCode {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

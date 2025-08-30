@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ros2web
+Version: 0.0.1
+Summary: The ros2web is software that forwards HTTP requests to ROS2 packages.
+Home-page: UNKNOWN
+Maintainer: tygoto
+Maintainer-email: tygoto@me.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

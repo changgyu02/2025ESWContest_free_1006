@@ -1,0 +1,7 @@
+[ 14%] Built target getposecmd_tf2
+[ 28%] Built target webappcontrol
+[ 42%] Built target keyboardcontrol
+[ 57%] Built target movecirclecmd
+[ 71%] Built target getposecmd
+[ 85%] Built target setgrippercmd
+[ 92%] [32mBuilding CXX object CMakeFiles/movepointcmd.dir/src/movepointcmd.cpp.o[0m

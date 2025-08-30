@@ -1,0 +1,6 @@
+source;share/roarm_web_app/hook/pythonpath.ps1
+source;share/roarm_web_app/hook/pythonpath.dsv
+source;share/roarm_web_app/hook/pythonpath.sh
+source;share/roarm_web_app/hook/ament_prefix_path.ps1
+source;share/roarm_web_app/hook/ament_prefix_path.dsv
+source;share/roarm_web_app/hook/ament_prefix_path.sh

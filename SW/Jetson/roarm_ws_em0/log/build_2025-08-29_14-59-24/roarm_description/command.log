@@ -1,0 +1,1 @@
+Invoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_description': /usr/local/bin/cmake /home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_description -DCMAKE_INSTALL_PREFIX=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description

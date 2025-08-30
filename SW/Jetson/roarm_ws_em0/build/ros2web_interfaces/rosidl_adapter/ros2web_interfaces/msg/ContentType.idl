@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ros2web_interfaces/msg/ContentType.msg
+// generated code does not contain a copyright notice
+
+
+module ros2web_interfaces {
+  module msg {
+    module ContentType_Constants {
+      @verbatim (language="comment", text=
+        "application")
+      const string APPLICATION_JSON = "application/json";
+      const string APPLICATION_MSWORD = "application/msword";
+      const string APPLICATION_MSWORD_OPEN_XML = "application/vnd.openxmlformats-officedocument.wordprocessingml.document";
+      const string APPLICATION_OCTET_STREAM = "application/octet-stream";
+      const string APPLICATION_VND_AMAZON_EBOOK = "application/vnd.amazon.ebook";
+      const string APPLICATION_X_ABIWORD = "application/x-abiword";
+      const string APPLICATION_X_BZIP2 = "application/x-bzip2";
+      const string APPLICATION_X_BZIP = "application/x-bzip";
+      const string APPLICATION_X_CSH = "application/x-csh";
+      const string APPLICATION_X_FREEARC = "application/x-freearc";
+      const string APPLICATION_X_WWW_FORM_URLENCODED = "application/x-www-form-urlencoded";
+      @verbatim (language="comment", text=
+        "application/epub+zip" "\n"        "application/gzip" "\n"        "application/java-archive" "\n"        "application/ld+json" "\n"        "application/ogg" "\n"        "application/pdf" "\n"        "application/rtf" "\n"        "application/vnd.apple.installer+xml" "\n"        "application/vnd.mozilla.xul+xml" "\n"        "application/vnd.ms-excel" "\n"        "application/vnd.ms-fontobject" "\n"        "application/vnd.ms-powerpoint" "\n"        "application/vnd.oasis.opendocument.presentation" "\n"        "application/vnd.oasis.opendocument.spreadsheet" "\n"        "application/vnd.oasis.opendocument.text" "\n"        "application/vnd.openxmlformats-officedocument.presentationml.presentation" "\n"        "application/vnd.rar" "\n"        "application/vnd.visio" "\n"        "application/x-7z-compressed" "\n"        "application/x-httpd-php" "\n"        "application/x-sh" "\n"        "application/x-shockwave-flash" "\n"        "application/x-tar" "\n"        "application/xhtml+xml" "\n"        "application/xml" "\n"        "application/zip" "\n"        "audio")
+      const string AUDIO_AAC = "audio/aac";
+      @verbatim (language="comment", text=
+        "audio/3gpp" "\n"        "audio/3gpp2" "\n"        "audio/midi" "\n"        "audio/mpeg" "\n"        "audio/ogg" "\n"        "audio/opus" "\n"        "audio/wav" "\n"        "audio/webm" "\n"        "audio/x-midi" "\n"        "font" "\n"        "font/otf" "\n"        "font/ttf" "\n"        "font/woff" "\n"        "font/woff2" "\n"        "image")
+      const string IMAGE_BMP = "image/bmp";
+      const string IMAGE_JPEG = "image/jpeg";
+      const string IMAGE_PNG = "image/png";
+      @verbatim (language="comment", text=
+        "image/gif" "\n"        "image/svg+xml" "\n"        "image/tiff" "\n"        "image/vnd.microsoft.icon" "\n"        "image/webp")
+      const string MULTIPART_FORM_DATA = "multipart/form-data";
+      @verbatim (language="comment", text=
+        "pplication/vnd.openxmlformats-officedocument.spreadsheetml.sheet" "\n"        "text")
+      const string TEXT_CSS = "text/css";
+      const string TEXT_CSV = "text/csv";
+      const string TEXT_HTML = "text/html";
+      const string TEXT_JAVASCRIPT = "text/javascript";
+      const string TEXT_PLAIN = "text/plain";
+      const string TEXT_XML = "text/xml";
+      @verbatim (language="comment", text=
+        "text/calendar" "\n"        "video")
+      const string VIDEO_X_MSVIDEO = "video/x-msvideo";
+    };
+    @verbatim (language="comment", text=
+      "https://developer.mozilla.org/ja/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types")
+    struct ContentType {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

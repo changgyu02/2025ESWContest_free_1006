@@ -1,0 +1,33 @@
+{
+  "package_name": "ros2web_interfaces",
+  "output_dir": "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_typesupport_introspection_cpp/ros2web_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/BodyPart.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/ContentType.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/HTTPStatusCode.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/WSMsgData.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/WSMsgType.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/WSMsg.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:srv/HTTP.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:srv/WS.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/BodyPart.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/ContentType.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/HTTPStatusCode.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/WSMsgData.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/WSMsgType.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/msg/WSMsg.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/srv/HTTP.idl",
+    "/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces/srv/WS.idl"
+  ]
+}

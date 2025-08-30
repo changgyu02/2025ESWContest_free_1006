@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/roarm_web_app/roarm_web_app.egg-info
+writing ../../../build/roarm_web_app/roarm_web_app.egg-info/PKG-INFO
+writing dependency_links to ../../../build/roarm_web_app/roarm_web_app.egg-info/dependency_links.txt
+writing entry points to ../../../build/roarm_web_app/roarm_web_app.egg-info/entry_points.txt
+writing requirements to ../../../build/roarm_web_app/roarm_web_app.egg-info/requires.txt
+writing top-level names to ../../../build/roarm_web_app/roarm_web_app.egg-info/top_level.txt
+writing manifest file '../../../build/roarm_web_app/roarm_web_app.egg-info/SOURCES.txt'
+reading manifest file '../../../build/roarm_web_app/roarm_web_app.egg-info/SOURCES.txt'
+writing manifest file '../../../build/roarm_web_app/roarm_web_app.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app
+copying roarm_web_app/roarm_web_app.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app
+copying roarm_web_app/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app
+running install
+running install_lib
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app/roarm_web_app.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app
+copying /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/build/lib/roarm_web_app/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app/roarm_web_app.py to roarm_web_app.cpython-310.pyc
+byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/ament_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/ament_index/resource_index
+creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/ament_index/resource_index/packages
+copying resource/roarm_web_app -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/ament_index/resource_index/packages
+copying package.xml -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/share/roarm_web_app
+running install_egg_info
+Copying ../../../build/roarm_web_app/roarm_web_app.egg-info to /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/python3.10/site-packages/roarm_web_app-0.0.0-py3.10.egg-info
+running install_scripts
+Installing roarm_web_app script to /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_web_app/lib/roarm_web_app
+writing list of installed files to '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_web_app/install.log'

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-746b6f57cdf85c3c12c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "roarm_moveit_ikfast_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_description_hand_moveit_ikfast_plugin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_description_hand_moveit_ikfast_plugin-11b497c58b38740146dc.json",
+					"name" : "roarm_description_hand_moveit_ikfast_plugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "roarm_moveit_ikfast_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-roarm_moveit_ikfast_plugins_uninstall-bc7bf448495a64aa2750.json",
+					"name" : "roarm_moveit_ikfast_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ab4b1656a49c4d8723b6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_moveit_ikfast_plugins",
+		"source" : "/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_moveit_ikfast_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

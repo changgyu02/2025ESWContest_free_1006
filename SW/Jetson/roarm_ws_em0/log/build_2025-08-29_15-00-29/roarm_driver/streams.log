@@ -1,0 +1,39 @@
+[3.207s] Invoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_driver': AMENT_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build install --record /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/install.log --single-version-externally-managed install_data
+[3.673s] running egg_info
+[3.674s] creating ../../../build/roarm_driver/roarm_driver.egg-info
+[3.674s] writing ../../../build/roarm_driver/roarm_driver.egg-info/PKG-INFO
+[3.674s] writing dependency_links to ../../../build/roarm_driver/roarm_driver.egg-info/dependency_links.txt
+[3.675s] writing entry points to ../../../build/roarm_driver/roarm_driver.egg-info/entry_points.txt
+[3.675s] writing requirements to ../../../build/roarm_driver/roarm_driver.egg-info/requires.txt
+[3.675s] writing top-level names to ../../../build/roarm_driver/roarm_driver.egg-info/top_level.txt
+[3.676s] writing manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[3.678s] reading manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[3.680s] writing manifest file '../../../build/roarm_driver/roarm_driver.egg-info/SOURCES.txt'
+[3.680s] running build
+[3.680s] running build_py
+[3.681s] creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build
+[3.681s] creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib
+[3.681s] creating /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver
+[3.681s] copying roarm_driver/roarm_driver.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver
+[3.683s] copying roarm_driver/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver
+[3.684s] running install
+[3.684s] running install_lib
+[3.686s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+[3.686s] copying /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver/roarm_driver.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+[3.686s] copying /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build/lib/roarm_driver/__init__.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver
+[3.688s] byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver/roarm_driver.py to roarm_driver.cpython-310.pyc
+[3.691s] byte-compiling /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver/__init__.py to __init__.cpython-310.pyc
+[3.691s] running install_data
+[3.691s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/ament_index
+[3.692s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/ament_index/resource_index
+[3.692s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/ament_index/resource_index/packages
+[3.692s] copying resource/roarm_driver -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/ament_index/resource_index/packages
+[3.692s] copying package.xml -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/roarm_driver
+[3.693s] creating /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/roarm_driver/launch
+[3.693s] copying launch/roarm_launch.py -> /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/share/roarm_driver/launch
+[3.693s] running install_egg_info
+[3.697s] Copying ../../../build/roarm_driver/roarm_driver.egg-info to /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages/roarm_driver-0.0.0-py3.10.egg-info
+[3.699s] running install_scripts
+[3.735s] Installing roarm_driver script to /home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/roarm_driver
+[3.736s] writing list of installed files to '/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/install.log'
+[3.802s] Invoked command in '/home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_main/roarm_driver' returned '0': AMENT_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit_cmd:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_description:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo LD_LIBRARY_PATH=/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/lib:/home/changgyu/roarm_ws/roarm_ws_em0/install/moveit_servo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/home/changgyu/onnxruntime/build/Linux/Release:/usr/local/cuda/lib64:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_driver/lib/python3.10/site-packages:/home/changgyu/roarm_ws/roarm_ws_em0/install/roarm_moveit/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/roarm_driver build --build-base /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/build install --record /home/changgyu/roarm_ws/roarm_ws_em0/build/roarm_driver/install.log --single-version-externally-managed install_data

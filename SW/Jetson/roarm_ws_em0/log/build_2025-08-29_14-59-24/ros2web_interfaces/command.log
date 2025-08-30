@@ -1,0 +1,1 @@
+Invoking command in '/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces': /usr/local/bin/cmake /home/changgyu/roarm_ws/roarm_ws_em0/src/roarm_else/ros2web-ros2/ros2web_interfaces -DCMAKE_INSTALL_PREFIX=/home/changgyu/roarm_ws/roarm_ws_em0/install/ros2web_interfaces

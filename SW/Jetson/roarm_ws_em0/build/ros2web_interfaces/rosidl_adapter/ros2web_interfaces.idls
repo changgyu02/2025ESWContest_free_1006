@@ -1,0 +1,8 @@
+/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/BodyPart.idl
+/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/ContentType.idl
+/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/HTTPStatusCode.idl
+/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/WSMsgData.idl
+/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/WSMsgType.idl
+/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:msg/WSMsg.idl
+/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:srv/HTTP.idl
+/home/changgyu/roarm_ws/roarm_ws_em0/build/ros2web_interfaces/rosidl_adapter/ros2web_interfaces:srv/WS.idl

@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roarm_moveit/srv/MovePointCmd.srv
+// generated code does not contain a copyright notice
+
+
+module roarm_moveit {
+  module srv {
+    @verbatim (language="comment", text=
+      "MovePointCmd.srv" "\n"
+      "요청 부분")
+    struct MovePointCmd_Request {
+      @verbatim (language="comment", text=
+        "목표 위치의 x 좌표")
+      double x;
+
+      @verbatim (language="comment", text=
+        "목표 위치의 y 좌표")
+      double y;
+
+      @verbatim (language="comment", text=
+        "목표 위치의 z 좌표")
+      double z;
+    };
+    @verbatim (language="comment", text=
+      "응답 부분")
+    struct MovePointCmd_Response {
+      @verbatim (language="comment", text=
+        "실행 성공 여부를 나타내는 플래그")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "실행 결과 메시지")
+      string message;
+    };
+  };
+};
