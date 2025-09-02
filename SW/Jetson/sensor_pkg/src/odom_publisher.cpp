@@ -14,7 +14,7 @@ public:
     odom_pub_ = this->create_publisher<nav_msgs::msg::Odometry>("/odom", 10);
 
     uwb_sub_ = this->create_subscription<geometry_msgs::msg::PoseStamped>(
-      "/uwb_pose", 10,
+      "/uwb_offset_pose", 10,
       [this](const geometry_msgs::msg::PoseStamped::SharedPtr msg) {
         last_uwb_pose_ = *msg;
         update_odom();
