@@ -28,7 +28,7 @@ public:
       });
 
     cmd_vel_sub_ = this->create_subscription<geometry_msgs::msg::Twist>(
-      "/cmd_vel", 10,
+      "/encoder_vel", 10,
       [this](const geometry_msgs::msg::Twist::SharedPtr msg) {
         last_cmd_vel_ = *msg;
         update_odom();
