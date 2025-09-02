@@ -7,7 +7,7 @@ class UwbTFBroadcaster : public rclcpp::Node {
 public:
     UwbTFBroadcaster() : Node("uwb_tf_broadcaster") {
         subscription_ = this->create_subscription<geometry_msgs::msg::PoseStamped>(
-            "uwb_pose", 10, std::bind(&UwbTFBroadcaster::pose_callback, this, std::placeholders::_1));
+            "uwb_offset_pose", 10, std::bind(&UwbTFBroadcaster::pose_callback, this, std::placeholders::_1));
 
         tf_broadcaster_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
     }
