@@ -9,15 +9,6 @@
 
 using namespace std::chrono_literals;
 
-/*
-  twist_mux.cpp (ROS2 Humble)
-  - 입력:  /cmd_vel_align, /cmd_vel_nav
-  - 출력:  /cmd_vel (항상 최종 출력은 /cmd_vel)
-  - 우선순위: align > nav
-  - 타임아웃: align 200ms, nav 300ms (기본)
-  - "새 메시지"의 정의: 값의 변화가 아니라 '도착 자체' (heartbeat)
-*/
-
 struct InputChannel {
   std::string topic;
   int priority;     // 높을수록 우선
@@ -186,3 +177,4 @@ int main(int argc, char **argv) {
   rclcpp::shutdown();
   return 0;
 }
+
