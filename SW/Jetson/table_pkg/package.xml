@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>table_pkg</name>
+  <version>0.0.0</version>
+  <description>Python-based ROS2 package for table management and dirt classification</description>
+
+  <maintainer email="you@example.com">changgyu</maintainer>
+  <license>MIT</license>
+
+  <!-- 빌드 도구 -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- ROS2 런타임 의존성 -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>geometry_msgs</depend>   <!-- ✅ Twist 사용 -->
+  <depend>sensor_msgs</depend>     <!-- ✅ Image 사용 -->
+  <depend>cv_bridge</depend>
+  <depend>ament_index_python</depend>
+
+  <!-- 파이썬/외부 라이브러리 (rosdep 또는 pip로 설치) -->
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>  <!-- ✅ np 사용 -->
+  <exec_depend>torch</exec_depend>
+  <exec_depend>ultralytics</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+
