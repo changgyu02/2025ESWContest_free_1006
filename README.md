@@ -29,9 +29,13 @@
 
 ## 🖥️ SW(주요 함수, 노드 별 기능)
 <img width="1920" height="1080" alt="Web   Server" src="https://github.com/user-attachments/assets/76d06ce5-f840-4796-999f-467b071f1301" />
-<img width="1920" height="1080" alt="2-6" src="https://github.com/user-attachments/assets/7c0ae86f-5167-4f47-9003-6b2ab7d1c812" />
-<img width="1920" height="1080" alt="Table   Cleaning Pkg" src="https://github.com/user-attachments/assets/baca1ff0-9ef1-4423-8caf-4a571636316c" />
+<img width="1920" height="1080" alt="2-6" src="https://github.com/user-attachments/assets/6d4bb6af-8243-42f4-b2e9-2534eec3f2cc" />
+<img width="1920" height="1080" alt="2-7" src="https://github.com/user-attachments/assets/38534e49-70f0-4c00-9e61-bdc2ab250080" />
 <img width="1920" height="1080" alt="App" src="https://github.com/user-attachments/assets/ba6fd52c-5a90-4dc5-ba2e-6134811df34c" />
+
+## 🖥️ SW(장애 요인 및 해결 방안)
+<img width="1920" height="1080" alt="2-9" src="https://github.com/user-attachments/assets/b5496905-82bd-4f4c-895d-18e200285032" />
+<img width="1920" height="1080" alt="2-10" src="https://github.com/user-attachments/assets/c2d1f9be-42e3-4cc9-84c0-bcbd79881460" />
 
 # ⚙️ Environment
 
