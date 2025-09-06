@@ -1,19 +1,38 @@
 #include <Arduino.h>
+#include <ESP32Servo.h>
 
-const int A_OPEN_STEPS = 220; 
+// ===== 서보 설정 =====
+const int SERVO_PIN = 26;             // 서보 제어 핀
+const int SERVO_OPEN_ANGLE = 70;     // 열릴 때 각도
+const int SERVO_CLOSE_ANGLE = 180;    // 닫힌 각도
+const int SERVO_STEP_DELAY = 15;      // 서보 부드럽게 이동 딜레이 (ms)
 
-const int A_MOTOR_PINS[4] = {16, 4, 2, 15}; //쓰레기
-const int B_MOTOR_PINS[4] = {19, 18, 5, 17}; //걸레면
-
-constexpr float B_ROTATION_ANGLE = 36.0f;
-constexpr int STEPS_PER_REVOLUTION = 4096;
+// ===== 스텝모터 설정 =====
+const int B_MOTOR_PINS[4] = {19, 18, 5, 17};
+constexpr float B_ROTATION_ANGLE = 36.0f;     // 회전 각도
+constexpr int STEPS_PER_REVOLUTION = 4096;    // 28BYJ-48 기준
 constexpr float STEPS_PER_DEGREE = STEPS_PER_REVOLUTION / 360.0f;
-constexpr uint32_t LID_OPEN_DURATION_MS = 33000;
-const int A_MOTOR_US_START = 6000, A_MOTOR_US_END = 2500;
 const int B_MOTOR_US_START = 5000, B_MOTOR_US_END = 2000;
-const uint32_t TRIG_DEBOUNCE_MS = 300;
 
-// 스텝 모드 정의
+// ===== DC 모터 핀 =====
+const int DC_EN  = 13;
+const int DC_IN1 = 12;
+const int DC_IN2 = 14;
+
+// ===== DC 모터 설정 =====
+const int DC_POWER_PERCENT   = 50;    // 속도 (0~100%)
+const int DC_RUN_DURATION_MS = 1000;  // 동작 시간
+const int DC_PWM_CHANNEL     = 6;     // PWM 채널 (0~15)
+const int DC_PWM_FREQ        = 5000;  // PWM 주파수 5kHz
+const int DC_PWM_RES         = 8;     // 해상도 8비트 (0~255)
+
+// ===== 서보 객체 =====
+Servo servoA;
+int currentAngle = SERVO_CLOSE_ANGLE;
+int targetAngle = SERVO_CLOSE_ANGLE;
+unsigned long lastServoUpdate = 0;
+
+// ===== 스텝 모터 제어 클래스 =====
 enum StepMode { HALF_STEP, FULL_STEP_2PHASE };
 
 class RampedStepper {
@@ -25,7 +44,7 @@ private:
     int _direction = 0;
     int _us_start, _us_end;
     uint32_t _last_step_us = 0;
-    StepMode _mode = HALF_STEP; // 현재 스텝 모드
+    StepMode _mode = HALF_STEP;
 
     const uint8_t HALF_STEP_SEQ[8][4] = {
         {1,0,0,0}, {1,1,0,0}, {0,1,0,0}, {0,1,1,0},
@@ -39,7 +58,7 @@ private:
         if (_mode == HALF_STEP) {
             _phase &= 7;
             for (int i=0; i<4; ++i) digitalWrite(_pins[i], HALF_STEP_SEQ[_phase][i]);
-        } else { // FULL_STEP_2PHASE
+        } else {
             _phase &= 3;
             for (int i=0; i<4; ++i) digitalWrite(_pins[i], FULL2_SEQ[_phase][i]);
         }
@@ -61,9 +80,7 @@ public:
         : _pins(pins), _us_start(us_start), _us_end(us_end) {}
 
     void begin() { for (int i=0; i<4; ++i) pinMode(_pins[i], OUTPUT); }
-
     void setStepMode(StepMode mode) { _mode = mode; }
-
     void move(long steps) {
         _steps_total = abs(steps);
         _steps_done = 0;
@@ -84,97 +101,145 @@ public:
         return true;
     }
 
-    void hold() { applyPhase(); }
-    bool isRunning() { return _steps_done < _steps_total; }
     void release() { for (int i=0; i<4; ++i) digitalWrite(_pins[i], LOW); }
+    bool isRunning() { return _steps_done < _steps_total; }
 };
 
-RampedStepper motorA(A_MOTOR_PINS, A_MOTOR_US_START, A_MOTOR_US_END);
+// ===== 전역 객체 =====
 RampedStepper motorB(B_MOTOR_PINS, B_MOTOR_US_START, B_MOTOR_US_END);
-enum State { STATE_IDLE, STATE_OPENING_AND_ROTATING, STATE_WAITING_TO_CLOSE, STATE_CLOSING };
-State currentState = STATE_IDLE;
-uint32_t last_trig_ms = 0;
-uint32_t close_timer_start_ms = 0;
-int last_second_printed = -1;
 
-// ===== 동작 함수 =====
-void startTriggerAction() {
-    if (millis() - last_trig_ms < TRIG_DEBOUNCE_MS) { return; }
-    last_trig_ms = millis();
-    
-    // 열 때는 부드러운 하프 스텝
-    motorA.setStepMode(HALF_STEP);
-    motorA.move(A_OPEN_STEPS);
-    
-    // B 모터는 항상 하프 스텝
-    const int b_steps = lroundf(B_ROTATION_ANGLE * STEPS_PER_DEGREE);
-    motorB.move(b_steps);
-    
-    currentState = STATE_OPENING_AND_ROTATING;
-    Serial.println("STATE -> OPENING_AND_ROTATING");
+enum State { STATE_IDLE, STATE_RUNNING, STATE_WAITING };
+State currentState = STATE_IDLE;
+unsigned long stateStartTime = 0;
+
+// ===== DC 모터 상태 =====
+bool dcRunning = false;
+unsigned long dcStartMs = 0;
+int dcDurationMs = 0;
+
+// ===== 논블로킹 서보 업데이트 =====
+void setServoTarget(int angle) {
+  targetAngle = angle;
 }
 
+void updateServo() {
+  if (currentAngle == targetAngle) return;
+  if (millis() - lastServoUpdate >= SERVO_STEP_DELAY) {
+    lastServoUpdate = millis();
+    if (currentAngle < targetAngle) currentAngle++;
+    else if (currentAngle > targetAngle) currentAngle--;
+    servoA.write(currentAngle);
+  }
+}
+
+// ===== TRIG 동작 (서보 + 스텝모터 동시에) =====
+void startTriggerAction() {
+  if (currentState != STATE_IDLE) return;
+
+  Serial.println("STATE -> RUNNING (Servo + Stepper)");
+
+  // 서보 목표 각도 설정
+  setServoTarget(SERVO_OPEN_ANGLE);
+
+  // 스텝모터 회전 시작
+  const int b_steps = lroundf(B_ROTATION_ANGLE * STEPS_PER_DEGREE);
+  motorB.move(b_steps);
+
+  stateStartTime = millis();
+  currentState = STATE_RUNNING;
+}
+
+// ===== DC 모터 제어 =====
+void startDCMotor(int powerPercent, int durationMs) {
+  int pwmVal = map(powerPercent, 0, 100, 0, 255);
+  digitalWrite(DC_IN1, HIGH);
+  digitalWrite(DC_IN2, LOW);
+  ledcWrite(DC_PWM_CHANNEL, pwmVal);
+
+  dcStartMs = millis();
+  dcDurationMs = durationMs;
+  dcRunning = true;
+  Serial.println("DC motor started");
+}
+
+void updateDCMotor() {
+  if (dcRunning && (millis() - dcStartMs >= dcDurationMs)) {
+    ledcWrite(DC_PWM_CHANNEL, 0); // 정지
+    dcRunning = false;
+    Serial.println("DC motor stopped");
+  }
+}
+
+// ===== 시리얼 명령 처리 =====
+// ===== 시리얼 명령 처리 =====
 void handleSerial() {
-    if (Serial.available()) {
-        String line = Serial.readStringUntil('\n');
-        line.trim();
-        if (line.equalsIgnoreCase("TRIG") && currentState == STATE_IDLE) {
-            startTriggerAction();
-        }
+  if (Serial.available()) {
+    String line = Serial.readStringUntil('\n');
+    line.trim();
+
+    if (line.equalsIgnoreCase("TRIG") && currentState == STATE_IDLE) {
+      startTriggerAction();
     }
+    else if (line.equalsIgnoreCase("WATER")) {
+      startDCMotor(DC_POWER_PERCENT, DC_RUN_DURATION_MS);
+    }
+    else if (line.equalsIgnoreCase("DONE") && currentState == STATE_RUNNING) {
+      Serial.println("STATE -> RETURNING (Servo on DONE)");
+      setServoTarget(SERVO_CLOSE_ANGLE);   // 닫기
+      currentState = STATE_WAITING;
+    }
+  }
 }
 
 // ===== 상태 머신 =====
 void updateStateMachine() {
-    switch (currentState) {
-        case STATE_IDLE: break;
-        case STATE_OPENING_AND_ROTATING: {
-            bool a_is_running = motorA.update();
-            bool b_is_running = motorB.update();
-            if (!a_is_running && !b_is_running) {
-                currentState = STATE_WAITING_TO_CLOSE;
-                close_timer_start_ms = millis();
-                last_second_printed = -1;
-                Serial.println("STATE -> WAITING_TO_CLOSE");
-            }
-            break;
-        }
-        case STATE_WAITING_TO_CLOSE: {
-            motorA.hold();
-            uint32_t elapsed_ms = millis() - close_timer_start_ms;
-            int remaining_seconds = (LID_OPEN_DURATION_MS > elapsed_ms) ? (LID_OPEN_DURATION_MS - elapsed_ms + 999) / 1000 : 0;
-            if (remaining_seconds != last_second_printed) {
-                Serial.print(remaining_seconds); Serial.println("s remaining...");
-                last_second_printed = remaining_seconds;
-            }
-            if (elapsed_ms >= LID_OPEN_DURATION_MS) {
-                // 닫을 때는 강력한 풀 스텝으로 변경!
-                motorA.setStepMode(FULL_STEP_2PHASE);
-                // 풀스텝은 스텝수가 절반이므로 /2
-                motorA.move(-(A_OPEN_STEPS)*2.5); 
-                currentState = STATE_CLOSING;
-                Serial.println("STATE -> CLOSING (Full-Step Mode)");
-            }
-            break;
-        }
-        case STATE_CLOSING:
-            if (!motorA.update()) {
-                motorA.release();
-                currentState = STATE_IDLE;
-                Serial.println("STATE -> IDLE (Sequence complete)");
-            }
-            break;
+  switch (currentState) {
+    case STATE_IDLE:
+      break;
+
+    case STATE_RUNNING: {
+      motorB.update();
+      updateServo();
+      break;
     }
+
+    case STATE_WAITING: {
+      motorB.update();
+      updateServo();
+      if (currentAngle == SERVO_CLOSE_ANGLE && !motorB.isRunning()) {
+        motorB.release();
+        currentState = STATE_IDLE;
+        Serial.println("STATE -> IDLE (Complete)");
+      }
+      break;
+    }
+  }
 }
 
 // ===== 표준 함수 =====
 void setup() {
-    Serial.begin(115200);
-    motorA.begin(); motorB.begin();
-    Serial.println("Ready (Calibrated & Torque-Boosted). Send 'TRIG'.");
+  Serial.begin(115200);
+
+  // 서보 초기화
+  servoA.attach(SERVO_PIN, 1000, 2000);
+  servoA.write(SERVO_CLOSE_ANGLE);
+  currentAngle = SERVO_CLOSE_ANGLE;
+
+  // 스텝모터 초기화
+  motorB.begin();
+
+  // DC모터 초기화
+  pinMode(DC_IN1, OUTPUT);
+  pinMode(DC_IN2, OUTPUT);
+  ledcAttachPin(DC_EN, DC_PWM_CHANNEL);
+  ledcSetup(DC_PWM_CHANNEL, DC_PWM_FREQ, DC_PWM_RES);
+  ledcWrite(DC_PWM_CHANNEL, 0);
+
+  Serial.println("Ready. Send 'TRIG' or 'WATER'.");
 }
 
 void loop() {
-    handleSerial();
-    updateStateMachine();
+  handleSerial();
+  updateStateMachine();
+  updateDCMotor();
 }
